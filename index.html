@@ -1,0 +1,1436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- Metas -->
+   <meta charset="utf-8">
+   <title>EVENTS - MULTIPURPOSE CONFERENCE HTML TEMPLATE</title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Css -->
+   <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+   <link href="css/base.css" rel="stylesheet" type="text/css" media="all" />
+   <link href="css/main.css" rel="stylesheet" type="text/css" media="all" />
+   <!-- <link href="css/flexslider.css" rel="stylesheet" type="text/css"  media="all" /> -->
+   <link href="css/venobox.css" rel="stylesheet" type="text/css" media="all" />
+   <link href="css/fonts.css" rel="stylesheet" type="text/css" media="all" />
+   <link href="css/flexslider.css" rel="stylesheet" type="text/css">
+   <link href="scss/style.css" rel="stylesheet" type="text/css" media="all" />
+   <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700" rel="stylesheet">
+
+   <script>
+      (function (d) {
+         var config = {
+               kitId: 'bwm2igu',
+               scriptTimeout: 3000,
+               async: true
+            },
+            h = d.documentElement,
+            t = setTimeout(function () {
+               h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+            }, config.scriptTimeout),
+            tk = d.createElement("script"),
+            f = false,
+            s = d.getElementsByTagName("script")[0],
+            a;
+         h.className += " wf-loading";
+         tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+         tk.async = true;
+         tk.onload = tk.onreadystatechange = function () {
+            a = this.readyState;
+            if (f || a && a != "complete" && a != "loaded") return;
+            f = true;
+            clearTimeout(t);
+            try {
+               Typekit.load(config)
+            } catch (e) {}
+         };
+         s.parentNode.insertBefore(tk, s)
+      })(document);
+   </script>
+
+</head>
+
+<body>
+   <!-- Preloader -->
+   <!-- <div class="loader">
+      <div class="loader-inner">
+         <svg width="120" height="220" viewbox="0 0 100 100" class="loading-spinner" version="1.1"
+            xmlns="http://www.w3.org/2000/svg">
+            <circle class="spinner" cx="50" cy="50" r="21" fill="#111111" stroke-width="1.5" />
+         </svg>
+      </div>
+   </div> -->
+   <!-- End preloader-->
+
+   <!--Wrapper-->
+   <div class="wrapper">
+      <section class="hero">
+         <!--Main slider-->
+         <div class="main-slider slider">
+            <ul class="slides">
+               <li>
+                  <div class="background-img">
+                     <video class="video-bg" autoplay muted loop>
+                        <source src="img/op.mp4" type="video/mp4" />
+                     </video>
+                  </div>
+               </li>
+            </ul>
+         </div>
+         <!--End main slider-->
+
+         <!--Header-->
+         <header class="header">
+            <div class="container ">
+               <div class="row">
+                  <div class="col-md-2">
+                     <a class="scroll logo" href="#wrapper">
+                        <img src="img/logo/logo.svg">
+                     </a>
+                  </div>
+                  <div class="col-md-10 text-right">
+                     <nav class="main-nav">
+                        <div class="toggle-mobile-but">
+                           <a href="#" class="mobile-but">
+                              <div class="lines"></div>
+                           </a>
+                        </div>
+                        <ul>
+                           <li><a class="scroll" href="#about">關於論壇</a></li>
+                           <li><a class="scroll" href="#survey">趨勢調查</a></li>
+                           <li><a class="scroll" href="#speakers">講者介紹</a></li>
+                           <li><a class="scroll" href="#topics">論壇議題</a></li>
+                           <li><a class="scroll" href="#schedule">論壇議程</a></li>
+                           <li><a class="scroll" href="/industry">產業觀點</a></li> <!-- 連文章頁 -->
+                           <li><a class="scroll buy-btn" href="">線上購票</a></li>
+                        </ul>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+         </header>
+         <!--End header-->
+
+         <div class="inner-hero fade-out">
+            <div class="container hero-content">
+               <div class="row">
+                  <div class="col-sm-12 text-center">
+                     <div class="op-wrap">
+                        <h1 class="large"><span>風傳媒 8 週年論壇</span><span> ＆ 啟程2022</span></h1>
+                        <h3>金融 科技 環境 能源的反思與想像</h3>
+
+                     </div>
+                     <div class="op-title"><img src="img/title-row.svg" alt=""></div>
+                     <div class="op-wrap op-wrap2">
+                        <p class="date">2022.02.23 13:30-16:30</p>
+                        <p>台北晶華酒店 宴會廳</p>
+                     </div>
+                     <!-- <a href="#register" class="but scroll "> Register Now</a> -->
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--End hero section-->
+
+      <div class="cloud-op"></div>
+
+      <!--About section-->
+      <section id="about" class="about pt-150 pb-150">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-8 col-sm-offset-2 mb-100">
+                  <h1 class="title text-center">風傳媒8週年論壇 ＆ 啟程2022</h1>
+                  <p class="title-lead mt-20">
+                     蔓延全球的新冠疫情打破了我們對於生命、生活和生態的想像。現實世界刻意維持的社交距離、城市與國家間凍結的旅行，人與人的關係瞬間化為交織於網路的千絲萬縷，虛擬世界生機更加蓬勃。</p>
+
+                  <p class="title-lead mt-20">面對重構中的秩序，風傳媒關心台灣整體「經濟」，以及「金融」、「科技」、「環境」、「能源」等各大產業是以何種姿態回應復甦的世界？</p>
+
+                  <p class="title-lead mt-20">2022年有許多美好值得我們期待和想像。藉著8週年社慶，風傳媒邀請各界與我們一同關注「風起之勢」，站上機會的浪尖，領航未來。</p>
+               </div>
+            </div>
+         </div>
+
+         <div class="container">
+            <div class="row">
+               <div class="col-md-3 col-sm-3">
+                  <div class="block-info-1">
+                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="35px" height="25px"
+                        viewBox="0 0 42 32" enable-background="new 0 0 42 32" xml:space="preserve">
+                        <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="5.1983" y1="28.1187"
+                           x2="43.4067" y2="11.702">
+                           <stop offset="0" style="stop-color:#399BFF" />
+                           <stop offset="1" style="stop-color:#EE71F9" />
+                        </linearGradient>
+                        <path fill="url(#SVGID_1_)" d="M38,30.5v-19c0-0.276-0.224-0.5-0.5-0.5S37,11.224,37,11.5v19c0,0.276-0.224,0.5-0.5,0.5h-31
+                              C5.224,31,5,30.776,5,30.5v-19C5,11.224,4.776,11,4.5,11S4,11.224,4,11.5v19C4,31.327,4.673,32,5.5,32h31
+                              C37.327,32,38,31.327,38,30.5z" />
+                        <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="4.7162" y1="26.9965"
+                           x2="42.9245" y2="10.5799">
+                           <stop offset="0" style="stop-color:#399BFF" />
+                           <stop offset="1" style="stop-color:#EE71F9" />
+                        </linearGradient>
+                        <path fill="url(#SVGID_2_)" d="M8.5,23C8.224,23,8,23.224,8,23.5S8.224,24,8.5,24H10v3.5c0,0.276,0.224,0.5,0.5,0.5
+                              s0.5-0.224,0.5-0.5V24h6v3.5c0,0.276,0.224,0.5,0.5,0.5s0.5-0.224,0.5-0.5V24h6v3.5c0,0.276,0.224,0.5,0.5,0.5s0.5-0.224,0.5-0.5V24
+                              h6v3.5c0,0.276,0.224,0.5,0.5,0.5s0.5-0.224,0.5-0.5V24h1.5c0.276,0,0.5-0.224,0.5-0.5S33.776,23,33.5,23H32v-5h1.5
+                              c0.276,0,0.5-0.224,0.5-0.5S33.776,17,33.5,17H32v-4.5c0-0.276-0.224-0.5-0.5-0.5S31,12.224,31,12.5V17h-6v-4.5
+                              c0-0.276-0.224-0.5-0.5-0.5S24,12.224,24,12.5V17h-6v-4.5c0-0.276-0.224-0.5-0.5-0.5S17,12.224,17,12.5V17h-6v-4.5
+                              c0-0.276-0.224-0.5-0.5-0.5S10,12.224,10,12.5V17H8.5C8.224,17,8,17.224,8,17.5S8.224,18,8.5,18H10v5H8.5z M31,18v5h-6v-5H31z
+                              M24,18v5h-6v-5H24z M11,18h6v5h-6V18z" />
+                        <linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="-0.4811" y1="14.9003"
+                           x2="37.7272" y2="-1.5164">
+                           <stop offset="0" style="stop-color:#399BFF" />
+                           <stop offset="1" style="stop-color:#EE71F9" />
+                        </linearGradient>
+                        <path fill="url(#SVGID_3_)" d="M32.5,3h4.25C36.837,3,37,3,37,3.5V8H5V3.5C5,3.224,5.224,3,5.5,3h4C9.776,3,10,2.776,10,2.5
+                              S9.776,2,9.5,2h-4C4.673,2,4,2.673,4,3.5v5C4,8.776,4.224,9,4.5,9h33C37.776,9,38,8.776,38,8.5v-5C38,2.394,37.354,2,36.75,2H32.5
+                              C32.224,2,32,2.224,32,2.5S32.224,3,32.5,3z" />
+                        <linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="-1.6311" y1="12.2237"
+                           x2="36.5772" y2="-4.1929">
+                           <stop offset="0" style="stop-color:#399BFF" />
+                           <stop offset="1" style="stop-color:#EE71F9" />
+                        </linearGradient>
+                        <path fill="url(#SVGID_4_)" d="M26.5,3C26.776,3,27,2.776,27,2.5S26.776,2,26.5,2h-11C15.224,2,15,2.224,15,2.5S15.224,3,15.5,3
+                              H26.5z" />
+                        <linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="-2.9557" y1="9.1407"
+                           x2="35.2526" y2="-7.2759">
+                           <stop offset="0" style="stop-color:#399BFF" />
+                           <stop offset="1" style="stop-color:#EE71F9" />
+                        </linearGradient>
+                        <path fill="url(#SVGID_5_)"
+                           d="M13,4.5v-4C13,0.224,12.776,0,12.5,0S12,0.224,12,0.5v4C12,4.776,12.224,5,12.5,5S13,4.776,13,4.5z" />
+                        <linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="-0.3065" y1="15.3067"
+                           x2="37.9019" y2="-1.11">
+                           <stop offset="0" style="stop-color:#399BFF" />
+                           <stop offset="1" style="stop-color:#EE71F9" />
+                        </linearGradient>
+                        <path fill="url(#SVGID_6_)" d="M29.5,5C29.776,5,30,4.776,30,4.5v-4C30,0.224,29.776,0,29.5,0S29,0.224,29,0.5v4
+                              C29,4.776,29.224,5,29.5,5z" />
+                     </svg>
+                     <p>
+                        <strong>啟程2022線上民調</strong>
+                        <span>填問券，抽好禮</span>
+                     </p>
+                  </div>
+               </div>
+               <div class="col-md-3 col-sm-3">
+                  <div class="block-info-1">
+                     <svg version="1.1" id="Layer_7" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="35px" height="25px"
+                        viewBox="0 0 42 32" enable-background="new 0 0 42 32" xml:space="preserve">
+                        <linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="4.511" y1="11.8158"
+                           x2="41.3229" y2="27.6695">
+                           <stop offset="0" style="stop-color:#399BFF" />
+                           <stop offset="1" style="stop-color:#EE71F9" />
+                        </linearGradient>
+                        <path fill="url(#SVGID_7_)"
+                           d="M10.239,31.926c0.009,0.006,0.021,0.003,0.03,0.009C10.341,31.973,10.418,32,10.499,32
+                              c0.044,0,0.088-0.006,0.132-0.018l10.868-2.966l10.868,2.966C32.411,31.994,32.455,32,32.499,32c0.082,0,0.158-0.027,0.23-0.065
+                              c0.01-0.005,0.021-0.003,0.03-0.009l9-5.5c0.191-0.117,0.281-0.348,0.22-0.563l-4.984-17.5c-0.041-0.147-0.148-0.267-0.29-0.326
+                              c-0.142-0.057-0.301-0.048-0.436,0.026l-4.962,2.784c-0.24,0.135-0.326,0.44-0.191,0.681c0.135,0.242,0.439,0.327,0.682,0.191
+                              l4.409-2.475l4.707,16.526l-8.015,4.898l-1.904-15.231c-0.034-0.275-0.293-0.466-0.559-0.434c-0.273,0.034-0.468,0.284-0.434,0.558
+                              l1.907,15.259L22,28.115v-2.73c0-0.276-0.224-0.5-0.5-0.5s-0.5,0.224-0.5,0.5v2.73l-9.911,2.705l1.907-15.259
+                              c0.034-0.274-0.16-0.524-0.434-0.558c-0.272-0.032-0.524,0.159-0.559,0.434l-1.904,15.231L2.084,25.77L6.791,9.244l4.409,2.475
+                              c0.242,0.134,0.546,0.049,0.682-0.191c0.135-0.241,0.049-0.545-0.191-0.681L6.729,8.063C6.595,7.988,6.436,7.979,6.293,8.037
+                              c-0.142,0.059-0.249,0.178-0.29,0.326l-4.984,17.5c-0.062,0.216,0.028,0.446,0.22,0.563L10.239,31.926z" />
+                        <linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="12.6241" y1="7.5582"
+                           x2="28.5468" y2="14.4156">
+                           <stop offset="0" style="stop-color:#399BFF" />
+                           <stop offset="1" style="stop-color:#EE71F9" />
+                        </linearGradient>
+                        <path fill="url(#SVGID_8_)" d="M21.161,23.367c0.096,0.088,0.217,0.132,0.339,0.132c0.12,0,0.24-0.043,0.336-0.129
+                              C22.169,23.067,30,15.882,30,8.499c0-4.767-3.733-8.5-8.5-8.5S13,3.732,13,8.499C13,15.753,20.828,23.059,21.161,23.367z
+                              M21.5,0.999c4.275,0,7.5,3.224,7.5,7.5c0,6.097-5.993,12.337-7.497,13.807C20.002,20.819,14,14.497,14,8.499
+                              C14,4.223,17.225,0.999,21.5,0.999z" />
+                        <linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="17.3671" y1="6.7191"
+                           x2="25.6329" y2="10.2789">
+                           <stop offset="0" style="stop-color:#399BFF" />
+                           <stop offset="1" style="stop-color:#EE71F9" />
+                        </linearGradient>
+                        <path fill="url(#SVGID_9_)"
+                           d="M26,8.499c0-2.481-2.019-4.5-4.5-4.5S17,6.018,17,8.499s2.019,4.5,4.5,4.5S26,10.98,26,8.499z
+                              M21.5,11.999c-1.93,0-3.5-1.57-3.5-3.5s1.57-3.5,3.5-3.5s3.5,1.57,3.5,3.5S23.43,11.999,21.5,11.999z" />
+                     </svg>
+                     <p>
+                        <strong>風傳媒8週年論壇</strong>
+                        <span>線上Ｘ線下 同步觀點 </span>
+                     </p>
+                  </div>
+               </div>
+               <div class="col-md-3 col-sm-3">
+                  <div class="block-info-1">
+                     <svg version="1.1" id="Layer_10" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="35px" height="25px"
+                        viewBox="0 0 42 32" enable-background="new 0 0 42 32" xml:space="preserve">
+                        <linearGradient id="SVGID_10_" gradientUnits="userSpaceOnUse" x1="1.9027" y1="28.6566"
+                           x2="55.9027" y2="10.9483">
+                           <stop offset="0" style="stop-color:#399BFF" />
+                           <stop offset="1" style="stop-color:#EE71F9" />
+                        </linearGradient>
+                        <path fill="url(#SVGID_10_)" d="M40.498,0c-0.276,0-0.5,0.224-0.5,0.5v31c0,0.276,0.224,0.5,0.5,0.5s0.5-0.224,0.5-0.5v-31
+                              C40.998,0.224,40.774,0,40.498,0z" />
+                        <linearGradient id="SVGID_14_" gradientUnits="userSpaceOnUse" x1="1.1102" y1="26.2399"
+                           x2="55.1102" y2="8.5316">
+                           <stop offset="0" style="stop-color:#399BFF" />
+                           <stop offset="1" style="stop-color:#EE71F9" />
+                        </linearGradient>
+                        <path fill="url(#SVGID_10_)" d="M38.717,1.204c-0.17-0.083-0.376-0.062-0.526,0.055l-0.565,0.445C34.648,4.059,29.667,8,19.5,8H5.631
+                              C4.18,8,3,9.2,3,10.674v10.714C3,22.828,4.18,24,5.631,24h3.394c0.088,1.125,0.502,3.794,2.454,5.761
+                              C12.953,31.247,14.979,32,17.5,32c0.276,0,0.5-0.224,0.5-0.5S17.776,31,17.5,31c-2.242,0-4.026-0.652-5.306-1.938
+                              c-1.668-1.677-2.067-4.025-2.163-5.062h2.995c0.085,0.682,0.36,1.881,1.274,2.802C15.089,27.597,16.166,28,17.5,28
+                              c0.276,0,0.5-0.224,0.5-0.5S17.776,27,17.5,27c-1.055,0-1.891-0.302-2.484-0.896c-0.657-0.659-0.894-1.546-0.981-2.104h5.396
+                              c10.216,0,15.237,3.963,18.237,6.331l0.522,0.411c0.089,0.07,0.198,0.105,0.307,0.105c0.075,0,0.15-0.017,0.219-0.051
+                              c0.172-0.084,0.281-0.258,0.281-0.449V1.653C38.998,1.462,38.889,1.288,38.717,1.204z M4,21.388V10.674C4,9.751,4.731,9,5.631,9H9
+                              v14H5.631C4.716,23,4,22.292,4,21.388z M37.998,29.317C34.864,26.851,29.672,23,19.432,23h-5.797
+                              c-0.047-0.015-0.095-0.03-0.148-0.031c-0.001,0-0.001,0-0.002,0c-0.054,0-0.105,0.015-0.154,0.031H10V9h9.5
+                              c10.237,0,15.392-3.864,18.498-6.316V29.317z" />
+                        <linearGradient id="SVGID_11_" gradientUnits="userSpaceOnUse" x1="-1.8839" y1="17.1097"
+                           x2="52.1161" y2="-0.5987">
+                           <stop offset="0" style="stop-color:#399BFF" />
+                           <stop offset="1" style="stop-color:#EE71F9" />
+                        </linearGradient>
+                        <path fill="url(#SVGID_11_)" d="M1.5,21.857c0.276,0,0.5-0.224,0.5-0.5V10.643c0-0.276-0.224-0.5-0.5-0.5S1,10.367,1,10.643v10.714
+                              C1,21.633,1.224,21.857,1.5,21.857z" />
+                     </svg>
+                     <p>
+                        <strong>數位專題</strong>
+                        <span>產業趨勢專題報導</span>
+                     </p>
+                  </div>
+               </div>
+               <div class="col-md-3 col-sm-3 text-right">
+                  <div class="block-info-1 block-info-ticket">
+                     <a href="#tickets" class="scroll but">報名線上直播</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--End about section-->
+
+
+      <!--Live section 先隱藏 -->
+      <section id="live" class="live pt-120 pb-120">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 text-center">
+                  <h1 class="title">線上直播</h1>
+
+                  <div class="embed-responsive embed-responsive-16by9 mt-5">
+                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xdil1Uwf2R4"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </section>
+      <!--End Live section-->
+
+      <!--Survey section 先隱藏 -等書妙-->
+      <!-- <section id="survey" class="survey pt-120 pb-120">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 text-center">
+                  <h1 class="title">趨勢調查(嵌入)</h1>
+               </div>
+            </div>
+         </div>
+      </section> -->
+      <!--End Survey section-->
+
+      <div class="cloud2"></div>
+      <!--cloud-->
+
+      <!--Speakers section-->
+      <section id="speakers" class="speakers pt-120">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-8 col-sm-offset-2 mb-50 text-center">
+                  <h1 class="title">致詞貴賓與論壇講者</h1>
+                  <!-- <p class="title-lead mt-10">We are bringing you the perfect combination of content and experience to ignite your <br>heart equip your mind and spark your skill.</p> -->
+               </div>
+            </div>
+         </div>
+
+         <ul class="">
+            <li>
+               <a href="#lightbox" data-toggle="modal" data-slide-to="0">
+                  <div class="col-sm-3 pd-0">
+                     <div class="block-speaker">
+                        <div class="block-img overlay soft">
+                           <div class="block-info-speaker">致詞貴賓</div>
+                           <div class="background-img">
+                              <img src="img/speaker-liu.jpg" alt="">
+                           </div>
+                           <div class="block-info-2">
+                              <p>
+                                 <strong>賴清德</strong>
+                                 <span>中華民國副總統</span>
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+            </li>
+
+            <li>
+               <a href="#lightbox" data-toggle="modal" data-slide-to="1">
+                  <div class="col-sm-3 pd-0">
+                     <div class="block-speaker">
+                        <div class="block-img overlay soft">
+                           <div class="block-info-speaker">專題演講</div>
+                           <div class="background-img">
+                              <img src="img/speaker-liu.jpg" alt="">
+                           </div>
+                           <div class="block-info-2">
+                              <p>
+                                 <strong>鮑永哲</strong>
+                                 <span>HTC虛擬實境產品與策略副總經理暨亞太區總經理</span>
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+            </li>
+
+            <li>
+               <a href="#lightbox" data-toggle="modal" data-slide-to="2">
+                  <div class="col-sm-3 pd-0">
+                     <div class="block-speaker">
+                        <div class="block-img overlay soft">
+                           <div class="block-info-speaker">專題演講</div>
+                           <div class="background-img">
+                              <img src="img/speaker-liu.jpg" alt="">
+                           </div>
+                           <div class="block-info-2">
+                              <p>
+                                 <strong>曾文生</strong>
+                                 <span>經濟部次長</span>
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+            </li>
+
+            <li>
+               <a href="#lightbox" data-toggle="modal" data-slide-to="3">
+                  <div class="col-sm-3 pd-0">
+                     <div class="block-speaker">
+                        <div class="block-img overlay soft">
+                           <div class="block-info-speaker">專題演講</div>
+                           <div class="background-img">
+                              <img src="img/speaker-liu.jpg" alt="">
+                           </div>
+                           <div class="block-info-2">
+                              <p>
+                                 <strong>黃珊珊</strong>
+                                 <span>台北市副市長</span>
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+            </li>
+
+            <li>
+               <a href="#lightbox" data-toggle="modal" data-slide-to="4">
+                  <div class="col-sm-3 pd-0">
+                     <div class="block-speaker">
+                        <div class="block-img overlay soft">
+                           <div class="block-info-speaker">專題演講</div>
+                           <div class="background-img">
+                              <img src="img/speaker-liu.jpg" alt="">
+                           </div>
+                           <div class="block-info-2">
+                              <p>
+                                 <strong>劉上旗</strong>
+                                 <span>國泰人壽總經理</span>
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+            </li>
+
+            <li>
+               <a href="#lightbox" data-toggle="modal" data-slide-to="5">
+                  <div class="col-sm-3 pd-0">
+                     <div class="block-speaker">
+                        <div class="block-img overlay soft">
+                           <div class="block-info-speaker">專題對談</div>
+                           <div class="background-img">
+                              <img src="img/speaker-liu.jpg" alt="">
+                           </div>
+                           <div class="block-info-2">
+                              <p>
+                                 <strong>李君禮</strong>
+                                 <span>經濟部能源局副局長</span>
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+            </li>
+
+            <li>
+               <a href="#lightbox" data-toggle="modal" data-slide-to="6">
+                  <div class="col-sm-3 pd-0">
+                     <div class="block-speaker">
+                        <div class="block-img overlay soft">
+                           <div class="block-info-speaker">專題對談</div>
+                           <div class="background-img">
+                              <img src="img/speaker-liu.jpg" alt="">
+                           </div>
+                           <div class="block-info-2">
+                              <p>
+                                 <strong>趙書閔</strong>
+                                 <span>雲豹能源科技總經理</span>
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+            </li>
+
+            <li>
+               <a href="#lightbox" data-toggle="modal" data-slide-to="7">
+                  <div class="col-sm-3 pd-0">
+                     <div class="block-speaker">
+                        <div class="block-img overlay soft">
+                           <div class="block-info-speaker">專題對談</div>
+                           <div class="background-img">
+                              <img src="img/speaker-liu.jpg" alt="">
+                           </div>
+                           <div class="block-info-2">
+                              <p>
+                                 <strong>梁啟源</strong>
+                                 <span>梁啟源
+                                    中央大學講座教授暨中研院經濟所兼任研究員</span>
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+            </li>
+         </ul>
+
+         <div class="container">
+            <div class="modal fade and carousel slide" id="lightbox">
+               <div class="modal-dialog">
+                  <div class="modal-content">
+                     <div class="modal-body">
+                        <!-- <ol class="carousel-indicators">
+                         <li data-target="#lightbox" data-slide-to="0" class="active"></li>
+                         <li data-target="#lightbox" data-slide-to="1"></li>
+                         <li data-target="#lightbox" data-slide-to="2"></li>
+                         <li data-target="#lightbox" data-slide-to="3"></li>
+                         <li data-target="#lightbox" data-slide-to="4"></li>
+                         <li data-target="#lightbox" data-slide-to="5"></li>
+                         <li data-target="#lightbox" data-slide-to="6"></li>
+                         <li data-target="#lightbox" data-slide-to="7"></li>
+                       </ol> -->
+                        <div class="carousel-inner">
+                           <div class="item active">
+                              <p>賴清德介紹</p>
+                           </div>
+                           <div class="item">
+                              <p>鮑永哲介紹</p>
+                           </div>
+                           <div class="item">
+                              <p>王美花介紹</p>
+                           </div>
+                           <div class="item">
+                              <p>黃珊珊介紹</p>
+                           </div>
+                           <div class="item">
+                              <p>劉上旗介紹</p>
+                           </div>
+                           <div class="item">
+                              <p>李君禮介紹</p>
+                           </div>
+                           <div class="item">
+                              <p>趙書閔介紹</p>
+                           </div>
+                           <div class="item">
+                              <p>王學呈介紹</p>
+                           </div>
+                        </div><!-- /.carousel-inner -->
+
+                        <a class="left carousel-control" href="#lightbox" role="button" data-slide="prev">
+                           <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a class="right carousel-control" href="#lightbox" role="button" data-slide="next">
+                           <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                     </div><!-- /.modal-body -->
+                  </div><!-- /.modal-content -->
+               </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+         </div><!-- /.container -->
+
+      </section>
+      <!--End speakers section-->
+
+      <!--Topics section-->
+      <section id="topics" class="topics pt-120 pb-120 pb-80">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-8 col-sm-offset-2 mb-30 text-center">
+                  <h1 class="title">論壇議題</h1>
+                  <!-- <p class="title-lead mt-10">Whether you’re new to the speaking field or a seasoned pro  you’ll connect<br> with old colleagues and make valuable new friends.</p> -->
+
+               </div>
+            </div>
+         </div>
+
+         <!-- tab -->
+         <div class="container text-center">
+            <div class="row">
+               <button class="tab-btn" onclick="openTopic('topic-1')">元宇宙</button>
+               <button class="tab-btn" onclick="openTopic('topic-2')">能源轉型</button>
+               <button class="tab-btn" onclick="openTopic('topic-3')">智慧城市</button>
+               <button class="tab-btn" onclick="openTopic('topic-4')">社會安全網</button>
+               <button class="tab-btn" onclick="openTopic('topic-5')">明日能源</button>
+            </div>
+         </div>
+
+         <div class="mt-50 mb-100">
+            <div id="topic-1" class="topic-block topic">
+               <div class="container">
+                  <div class="row vertical-align">
+                     <div class="col-md-6 ">
+                        <div class="col-md-12">
+                           <h3 class="sub-title-0  mb-20"><span class="gradient-text">前進元宇宙 台灣科技產業整裝出發</span></h3>
+                        </div>
+                        <div class="col-md-12">
+                           <p>元宇宙是指透過區塊鏈，虛擬實境（VR）、擴增實境（AR）等技術，打造一個虛擬世界。</p>
+                           <p>根據勤業眾信的《全球數位媒體趨勢》報告指出，家庭娛樂、社群媒體、遊戲，可能會是元宇宙三大應用場景。預計元宇宙趨勢，可以替台灣的科技產業帶來新一波的成長動能。</p>
+                           <p>迎接元宇宙落地，台灣的科技大的軟硬體整合實力將是搶佔市場的優勢。</p>
+                        </div>
+                     </div>
+                     <div class="col-md-6 ">
+                        <div class="block-video">
+                           <iframe src="http://player.vimeo.com/video/16334844?color=ffffff&portrait=0"></iframe>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div id="topic-2" class="topic-block topic" style="display:none">
+               <div class="container">
+                  <div class="row vertical-align">
+                     <div class="col-md-6 ">
+                        <div class="col-md-12">
+                           <h3 class="sub-title-0  mb-20"><span class="gradient-text">能源轉型  國家競爭力的挑戰與契機</span></h3>
+                        </div>
+                        <div class="col-md-12">
+                           <p>2050淨零轉型不僅是環境議題，也是經濟議題，是國家競爭力的挑戰也是契機。經濟部提出「低碳－零碳」和「能源－產業」的2X2淨零轉型架構，短期由綠能和減碳技術邁向低碳，長期投入氫能、循環經濟及碳捕捉封存等前瞻技術達成無碳的淨零路徑。產業淨零轉型也將由國營事業帶頭成為產業先驅，引導中下游廠商淨零轉型。</p>
+                           <p>台灣自2016年啟動能源轉型，在這條路上政府將如何帶動公部門、產業及全民共同參與，降低轉型過程中的衝擊，落實公正轉型，與各界共存共榮？</p>
+                        </div>
+                     </div>
+                     <div class="col-md-6 ">
+                        <div class="block-video">
+                           <iframe src="http://player.vimeo.com/video/16334844?color=ffffff&portrait=0"></iframe>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div id="topic-3" class="topic-block topic" style="display:none">
+               <div class="container">
+                  <div class="row vertical-align">
+                     <div class="col-md-6 ">
+                        <div class="col-md-12">
+                           <h3 class="sub-title-0 mb-20"><span class="gradient-text">智慧城市－隨著城市治理潮流迎向國際</span></h3>
+                        </div>
+                        <div class="col-md-12">
+                           <p>2021瑞士洛桑管理學院智慧城市指數排名，台北市從2020年第8名躍升到第4名，亞洲排名第2名。
+                              <p>台北市政府推動智慧城市的成果已獲得國內、外重要獎項的肯定，例如的2021年的智慧城市創新應用獎中，台北市在智慧交通、智慧建築和智慧水務中三項獲獎。</p>
+                              <p>台北市不僅建立了一個「宜居永續的智慧台北」，也以智慧城市讓台灣走向國際。</p>
+                        </div>
+                     </div>
+                     <div class="col-md-6 ">
+                        <div class="block-video">
+                           <iframe src="http://player.vimeo.com/video/16334844?color=ffffff&portrait=0"></iframe>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div id="topic-4" class="topic-block topic" style="display:none">
+               <div class="container">
+                  <div class="row vertical-align">
+                     <div class="col-md-6">
+                        <div class="col-md-12">
+                           <h3 class="sub-title-0 mb-20"><span class="gradient-text">1.2：1 的難題－建構人口老化的社會安全網</span></h3>
+                        </div>
+                        <div class="col-md-12">
+                           <p>依據國發會推估，台灣將在2026年邁入超高齡社會，老化速度甚至遠快於日本。此外，2065年台灣高齡人口比例將超過4成，屆時台灣每1.2位生產者需負擔1位老年人口。
+                              <p>醫療技術的進步以及大眾愈發重視健康養生，人類的平均壽命不斷增加，老年人口的比例亦隨之提升，加上少子化浪潮之影響，導致台灣的「扶養比」逐年攀升，青壯年人口的隱形負擔亦隨之加重。
+                              </p>
+                              <p>在金融領域，該如何替民眾建立社會安全網，以因應人口老化所衍生的相關問題？</p>
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="block-video">
+                           <iframe src="http://player.vimeo.com/video/16334844?color=ffffff&portrait=0"></iframe>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div id="topic-5" class="topic-block topic" style="display:none">
+               <div class="container">
+                  <div class="row vertical-align">
+                     <div class="col-md-6">
+                        <div class="col-md-12">
+                           <h3 class="sub-title-0 mb-20"><span class="gradient-text">明日能源—台灣能源的挑戰與機會</span></h3>
+                        </div>
+                        <div class="col-md-12">
+                           <p>22021年12月核四重啟公投遭否決，台灣是否缺電的議題持續受關注。</p>
+                           <p>現階段台灣的總體供電是否能夠應付工商和民生用電無虞？綠能和燃氣是否能順利取代核能，填補電力的缺口？台灣未來的能源又將如何發展，是否有時間、有制度且穩定地推動能源轉型？</p>
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="block-video">
+                           <iframe src="http://player.vimeo.com/video/16334844?color=ffffff&portrait=0"></iframe>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-8 col-sm-offset-2 mb-30 text-center">
+                  <h1 class="title">開場表演</h1>
+               </div>
+               <div class="col-md-6 col-md-push-6">
+                  <div class="col-md-12">
+                     <h3 class="sub-title-0  mb-20"><span class="gradient-text">拉縴人男聲合唱團</span></h3>
+                  </div>
+                  <div class="col-md-12">
+                     <p>1998年成功高中之校友組成「拉縴人男聲合唱團」，歷年，榮獲國內外超過20座金獎肯定，被德國樂評讚譽為「來自東方的聲音奇蹟」，更於2008、2012、2016年獲得三屆傳藝類金曲「最佳演唱獎」殊榮，打下「拉縴人」的合唱品牌，期盼自身在合唱的路上，要如同合作拉船的縴夫，同心協力，齊聲歌唱。
+                     </p>
+                  </div>
+               </div>
+               <div class="col-md-6 col-md-pull-6">
+                  <div class="block-video">
+                     <img src="img/20502881_1732943383387312_2039723172_o.jpg" alt="">
+                  </div>
+               </div>
+            </div>
+         </div>
+
+      </section>
+      <!--End topics section-->
+
+      <div class="cloud"></div>
+      <!--cloud-->
+
+      <!--Schedule section-->
+      <section id="schedule" class="schedule pt-120 pb-120">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-8 col-sm-offset-2 mb-50 text-center">
+                  <h1 class="title">議程</h1>
+                  <!-- <p class="title-lead mt-10">We are very excited about the program being planned for Events 2017 <br> this summer in Cincinati, Ohio.</p> -->
+               </div>
+            </div>
+         </div>
+
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-4 ">
+                  <!--Tabs-->
+                  <!-- <ul class="block-tabs">
+                        <li class="active" ><strong>風傳媒8週年巡禮</strong>  <span></span></li>
+                        <li class="" ><strong>風傳媒8週年論壇</strong>  <span></span></li>
+                     </ul> -->
+                  <!-- <div class="text-center">
+                        <div class="row">
+                           <button class="tab-btn" onclick="openScheduletab('scheduletab-1')">風傳媒8週年巡禮</button>
+                           <button class="tab-btn" onclick="openScheduletab('scheduletab-2')">風傳媒8週年論壇</button>
+                        </div>
+                     </div> -->
+               </div>
+
+               <div class="col-md-8 col-md-offset-2">
+                  <div class="block-tab">
+                     <div id="scheduletab-1" class="scheduletab">
+                        <div class="block-detail">
+                           <span class="time">13:00 - 13:20</span>
+                           <span class="topic">報到/⾃由交誼</span>
+                        </div>
+                        <div class="block-detail">
+                           <span class="time">13:20 - 13:30</span>
+                           <span class="topic">拉縴⼈合唱團開場演出</span>
+
+                        </div>
+                        <div class="block-detail">
+                           <span class="time">13:30 - 13:35</span>
+                           <span class="topic">貴賓致詞</span>
+                        </div>
+                        <div class="block-detail">
+                           <span class="time">13:35 - 13:40</span>
+                           <span class="topic">創辦人致詞</span>
+                        </div>
+                        <div class="block-detail">
+                           <span class="time">13:40 - 13:45</span>
+                           <span class="topic">風傳媒8週年巡禮</span>
+                        </div>
+                        <div class="block-detail">
+                           <span class="time">13:45 - 13:50</span>
+                           <span class="topic">公布⺠調結果與2022風起之勢論壇啟動</span>
+                        </div>
+                        <div class="block-detail">
+                           <span class="time">13:50 - 14:20</span>
+                           <span class="topic"><span class="topic-s">專題演講1：科技</span><br>前進元宇宙 台灣科技業整裝出發</span>
+                        </div>
+                        <div class="block-detail">
+                           <span class="time">14:20 - 14:50</span>
+                           <span class="topic"> <span class="topic-s">專題演講2：經濟</span><br>疫情之後 台灣的下⼀個明星產業</span>
+                        </div>
+                        <div class="block-detail">
+                           <span class="time">14:50 - 15:00</span>
+                           <span class="topic">中場休息</span>
+                        </div>
+                        <div class="block-detail">
+                           <span class="time">15:00 - 15:30</span>
+
+                           <span class="topic"><span class="topic-s">專題演講3：環境</span><br>智慧城市—隨著城市治理潮流迎向國際</span>
+                        </div>
+                        <div class="block-detail">
+                           <span class="time">15:30 - 16:00</span>
+                           <span class="topic"><span class="topic-s">專題演講4：金融</span><br>1.2：1 的難題－建構⼈⼝老化的社會安全網</span>
+                        </div>
+                        <div class="block-detail">
+                           <span class="time">16:00 - 16:30</span>
+                           <span class="topic"><span class="topic-s">專題對談：能源</span><br>明⽇能源—台灣能源的挑戰與機會</span>
+                        </div>
+                        <div class="block-detail">
+                           <span class="time">16:30 - </span>
+                           <span class="topic">圓滿閉幕</span>
+                        </div>
+                     </div>
+
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <!-- <div class="container">
+               <div class="row">
+                  <div class="col-md-12 text-center ticket-block pt-100">
+                     <a href="#tickets" class="scroll but">報名線上直播</a>
+                     <a href="#tickets" class="scroll but">購票參與現場</a>
+                  </div>
+               </div>
+            </div> -->
+      </section>
+      <!--End schedule section-->
+
+      <!--Buy section-->
+      <!-- <section class="buy pt-120 pb-120 overlay-light parallax">
+            <div class="background-img" >
+               <img src="img/bg-cloud2.jpg" alt="">
+            </div>
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-12  text-center  front-p">
+                     <h1 class="title">Time left until the conference start </h1>
+                     <p class="title-lead mt-10 mb-20">27 to 31 July 2017 with over 80 sessions - Cincinnati, Ohio </p>
+                     <span class="countdown gradient-text"></span>
+                     <div data-countdown="2022/02/23"></div>  
+                  </div>
+               </div>
+            </div>
+         </section> -->
+      <!--End Buy section-->
+
+      <!--Tickest section-->
+      <section id="tickets" class="tickets pt-80 pb-120">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-8 col-sm-offset-2 pb-50 text-center">
+                  <h1 class="title">售票資訊</h1>
+                  <p class="title-lead mt-10">If you want more bookings, then reserve your e-ticket for the ride of the
+                     year <br> Come join the world’s influencers and get answers. </p>
+               </div>
+            </div>
+         </div>
+         <div class="container">
+            <div class="row vertical-align tickets">
+               <div class="col-md-4">
+                  <h3 class="sub-title-0  mb-20"><span class="gradient-text">收看線上直播，​分享抽好禮</h3>
+                  <div>
+                     <p>完成兩步驟，有機會抽總額高達30萬好禮！<br>
+                        1. 分享活動至Facebook，並將貼文設為公開<br>
+                        2. 填寫滿意度回饋問卷</p>
+                  </div>
+               </div>
+
+               <div class="col-md-8 ">
+                  <div class="col-md-6 col-md-push-2">
+                     <ul class="block-tickets">
+                        <li>
+                           <ul class="block-ticket overlap">
+                              <li class="block-price"><span class="price"><span class="cur">$</span>3,500</span><span
+                                    class="block-type">貴賓票</span></li>
+                              <li>單人出席實體活動票</li>
+                              <li><a href="#" class="but mt-30">報名線上直播</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-md-6">
+                     <ul class="block-tickets">
+                        <li>
+                           <ul class="block-ticket active">
+                              <li class="block-price"><span class="price"><span class="cur">$</span>1600</span><span
+                                    class="block-type">早鳥貴賓票</span></li>
+                              <li>單人出席實體活動票 </li>
+                              <li><a href="#" class="but mt-30">報名線上直播</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+
+            </div>
+            <!--End row-->
+         </div>
+         <!--End container-->
+      </section>
+
+      <div class="cloud2"></div>
+      <!--cloud-->
+
+      <!--Tickest2 section-->
+      <section id="tickets2" class="tickets2 pt-120 pb-120">
+         <!-- <div class="container">
+               <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2 mb-130 text-center">
+                     <h1 class="title">比肩乘風</h1>
+                     <p class="title-lead mt-10">與風傳媒共同關注風起之勢，想像2022 </p>
+                  </div>
+               </div>
+            </div> -->
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-8 col-sm-offset-2 pb-50 text-center">
+                  <h1 class="title">比肩乘風</h1>
+                  <p class="title-lead mt-10">與風傳媒共同關注風起之勢，想像2022 </p>
+               </div>
+               <!-- <div class="col-sm-8 col-sm-offset-2 mb-50 text-center">
+                     <h1 class="title">比肩乘風</h1>
+                     <p class="title-lead mt-10">與風傳媒共同關注風起之勢，想像2022 </p>
+                  </div> -->
+               <div class="col-md-10 col-md-offset-1">
+                  <div class="review-slider flexslider">
+                     <ul class="slides">
+                        <li class="col-md-12">
+                           <img class="col-md-4" src="img/logo/logo.svg">
+                           <blockquote class="col-md-8">2022年度展望、對風傳媒8週年期許、對台灣社會的祝福等，30字內。 </blockquote>
+                        </li>
+                        <li class="col-md-12">
+                           <img class="col-md-4" src="img/logo/logo.svg">
+                           <blockquote class="col-md-8">祝福的話，30字內。 </blockquote>
+                        </li>
+                        <li class="col-md-12">
+                           <img class="col-md-4" src="img/logo/logo.svg">
+                           <blockquote class="col-md-8">祝福的話，30字內。 </blockquote>
+                        </li>
+
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- <div class="container">
+               <div class="row vertical-align tickets">
+
+               </div>
+            </div> -->
+      </section>
+      <!--End tickets section-->
+
+      <div class="cloud"></div>
+      <!--cloud-->
+
+      <!--Register section 可能不會用到這個版型-->
+      <!-- <section id="register" class="register pt-120 pb-120 overlay">
+            <div class="background-img " >
+               <img src="img/7.jpg" alt="">
+            </div>
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-6 front-p">
+                     <form class="registry-form form" method="post" action="#">
+                        <h2 class="sub-title-1 mb-30">Register your coming at Events Conference July 2017</h2>
+                        <div class="col-sm-6">
+                           <input placeholder="Your Name" value="" id="name" name="name" type="text" required>
+                        </div>
+                        <div class="col-sm-6">
+                           <input placeholder="Your Email" value="" id="email" name="email" type="text" required>
+                        </div>
+                        <div class="col-sm-6">
+                           <input placeholder="Phone number" value="" id="phone" name="phone" type="text">
+                        </div>
+                        <div class="col-sm-6">
+                           <div class="block-select">
+                              <select required>
+                                 <option value="">Choose Ticket</option>
+                                 <option value="120">One Day Ticket</option>
+                                 <option value="590">All Days Ticket</option>
+                              </select>
+                           </div>
+                        </div>
+                        <div class="col-sm-12">
+                           <input value="Get your ticket now" class=" but submit" type="submit">
+                        </div>
+                        <div class="col-sm-12">
+                           <p>* We don’t share your information with anyone.</p>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </section> -->
+      <!--End register section-->
+
+      <!--Sponsor section-->
+      <section class="sponser pt-120 pb-120">
+         <!-- <div class="background-img" >
+               <img src="img/bg-cloud.jpg" alt="">
+            </div> -->
+         <div class="container front-p">
+            <div class="row">
+               <div class="col-sm-10 col-sm-offset-1 pb-120 text-center ">
+                  <h1 class="title">主辦單位</h1>
+                  <!-- <p class="title-lead mt-10 mb-20">For further info about sponsoring feel free to get in touch with us</p> -->
+                  <div class="col-md-4 col-sm-4 col-md-push-4">
+                     <div class="block-spon">
+                        <img src="img/logo/logo.svg" alt="">
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-sm-10 col-sm-offset-1 pb-120 text-center ">
+                  <h1 class="title">協辦單位</h1>
+                  <!-- <p class="title-lead mt-10 mb-20">For further info about sponsoring feel free to get in touch with us</p> -->
+                  <div class="col-sm-12 text-center">
+                     <div class="col-md-3 col-sm-3 ">
+                        <div class="block-spon">
+                           <img src="img/logo/logo.svg" alt="">
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3">
+                        <div class="block-spon">
+                           <img src="img/logo/logo.svg" alt="">
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3">
+                        <div class="block-spon">
+                           <img src="img/logo/logo.svg" alt="">
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3">
+                        <div class="block-spon">
+                           <img src="img/logo/logo.svg" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-sm-10 col-sm-offset-1 pb-120 text-center ">
+                  <h1 class="title">贊助單位</h1>
+                  <!-- <p class="title-lead mt-10 mb-20">For further info about sponsoring feel free to get in touch with us</p> -->
+                  <div class="col-sm-12 text-center">
+                     <div class="col-md-3 col-sm-3 ">
+                        <div class="block-spon">
+                           <img src="img/logo/logo.svg" alt="">
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3">
+                        <div class="block-spon">
+                           <img src="img/logo/logo.svg" alt="">
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3">
+                        <div class="block-spon">
+                           <img src="img/logo/logo.svg" alt="">
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3">
+                        <div class="block-spon">
+                           <img src="img/logo/logo.svg" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+
+
+      </section>
+      <!--End sponser section-->
+
+      <!--Contact section-->
+      <section id="location" class="location pt-120 pb-120 bg-dark">
+         <div class="block-map">
+            <div class="map">
+               <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.4068629155217!2d121.52202696601297!3d25.054195533962936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a968f68729e7%3A0x6e3f6d2374968eaa!2zUmVnZW50IFRhaXBlaSDlj7DljJfmmbboj6_phZLlupc!5e0!3m2!1szh-TW!2stw!4v1642067178553!5m2!1szh-TW!2stw"
+                  width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+         </div>
+         <div class="container block-contact">
+            <div class="row">
+               <div class="col-md-5 col-md-offset-7 col-sm-5 col-sm-offset-7">
+                  <h1 class="title">場地資訊</h1>
+                  <p class="title-lead mt-10">台北晶華酒店 3F 宴會廳 </p>
+               </div>
+               <div class="col-md-5 col-md-offset-7 col-sm-5 col-sm-offset-7">
+                  <div class="block-info-3">
+                     <p>
+                        104台北市中山區中山北路​二段39巷3號
+                     </p>
+                     <h5 class="pt-50 pb-30"><span>大眾運輸</span>捷運「淡水線（紅線）」至「中山站」4號出口，約步行 10 分鐘即可抵達。公車216、217、218、220、224、227、247、260、287、310、603、中山幹線等數十路公車，於「國賓飯店站」下車即可。</h5>
+                     <h5><span>自行開車</span>行經中山高速公路於重慶北路交流道出口下交流道-至民族東路左轉，直走至林森北路右轉即可抵達。鄰近林森公園地下停車場；或是利用飯店本身附屬之地下停車場。</h5>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--End contact section-->
+
+      <!--Accom section 數位專輯收納 先隱藏-->
+      <!-- <section id="accom" class="accom pt-120 pb-120 brd-bottom">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-8 col-sm-offset-2 pb-50 text-center">
+                  <h1 class="title">專題報導</h1>
+                  <p class="title-lead mt-10 mb-20">Accommodation and travel info - information below or email us for
+                     further help.</p>
+               </div>
+            </div>
+         </div>
+
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-4 col-sm-offset-2 text-center">
+                  <div class="block-img">
+                     <div class="background-img">
+                        <img alt="" src="img/8.jpg" style="display: none;">
+                     </div>
+                  </div>
+                  <h2 class="sub-title-2 mt-30">Ground Transport</h2>
+                  <p class=" mt-10 ">Ad mortem te, Catalina, duci iussu consulis iam pridem oportebat, in te conferri
+                     pestem quam tu in nos omnes iam diu machinaris ac vitamus.
+                  </p>
+                  <a href="#" class="link gradient-text">
+                     more
+                  </a>
+               </div>
+               <div class="col-sm-4 text-center">
+                  <div class="block-img">
+                     <div class="background-img">
+                        <img alt="" src="img/9.jpg" style="display: none;">
+                     </div>
+                  </div>
+                  <h2 class="sub-title-2 mt-30">Ground Transport</h2>
+                  <p class=" mt-10 ">Ad mortem te, Catalina, duci iussu consulis iam pridem oportebat, in te conferri
+                     pestem quam tu in nos omnes iam diu machinaris ac vitamus.
+                  </p>
+                  <a href="#" class="link gradient-text">
+                     more
+                  </a>
+               </div>
+            </div>
+            <div class="row mt-80">
+               <div class="col-sm-4 col-sm-offset-2 text-center">
+                  <div class="block-img">
+                     <div class="background-img">
+                        <img alt="" src="img/10.jpg" style="display: none;">
+                     </div>
+                  </div>
+                  <h2 class="sub-title-2 mt-30">Air Transport</h2>
+                  <p class="mt-10">Ad mortem te, Catalina, duci iussu consulis iam pridem oportebat, in te conferri
+                     pestem quam tu in nos omnes iam diu machinaris ac vitamus.
+                  </p>
+                  <a href="#" class="link gradient-text">
+                     more
+                  </a>
+               </div>
+               <div class="col-sm-4 text-center">
+                  <div class="block-img">
+                     <div class="background-img">
+                        <img alt="" src="img/11.jpg" style="display: none;">
+                     </div>
+                  </div>
+                  <h2 class="sub-title-2 mt-30">Ground Transport</h2>
+                  <p class=" mt-10 ">Ad mortem te, Catalina, duci iussu consulis iam pridem oportebat, in te conferri
+                     pestem quam tu in nos omnes iam diu machinaris ac vitamus.
+                  </p>
+                  <a href="#" class="link gradient-text">
+                     more
+                  </a>
+               </div>
+            </div>
+
+            <div class="row mt-80">
+               <div class="col-md-4 col-sm-3 col-md-push-4 text-center">
+                  <div class="block-info-1">
+                     <a href="#tickets" class="scroll but">更多產業專題報導</a>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </section> -->
+      <!--End accom section-->
+
+      <!--Faq section-->
+      <section id="faq" class="faq pt-120 pb-120">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-8 col-sm-offset-2 mb-50 text-center ">
+                  <h1 class="title">F A Q</h1>
+                  <p class="title-lead mt-10">參加論壇享好禮活動說明</p>
+               </div>
+            </div>
+         </div>
+
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-8 col-sm-offset-2  ">
+                  <div class="block-faq mb-50">
+                     <!-- <h4 class="mb-10">參加論壇享好禮活動說明</h4> -->
+                     <!-- <ul>
+                        <li>活動得獎名單將於論壇後，以電腦抽獎系統採隨機方式抽出，並於 2021/12/3 公布於活動網站上。得獎名單公佈後，活動執行單位將會主動以 Email 通知的方式與得獎者聯繫，得獎者聯絡方式填寫不詳實或未於接獲得獎通知後 7 天內回覆相關資料，皆視為放棄得獎權利，將由備取者遞補。</li>
+                        <li>參加者應於填寫問卷時，提供真實姓名、手機號碼、電子郵件及聯絡地址，以作為得獎時核對身分及寄發通知之用。</li>
+                        <li>主辦單位保有最終修改、變更、活動解釋及取消本活動之權利，若有相關異動將公布於網站，恕不另行通知。</li>
+                     </ul>  -->
+                     <p>活動得獎名單將於論壇後，以電腦抽獎系統採隨機方式抽出，並於 2021/12/3 公布於活動網站上。得獎名單公佈後，活動執行單位將會主動以 Email 通知的方式與得獎者聯繫，得獎者聯絡方式填寫不詳實或未於接獲得獎通知後 7 天內回覆相關資料，皆視為放棄得獎權利，將由備取者遞補。</p>
+                     <p>參加者應於填寫問卷時，提供真實姓名、手機號碼、電子郵件及聯絡地址，以作為得獎時核對身分及寄發通知之用。
+                     </p>
+                     <p>主辦單位保有最終修改、變更、活動解釋及取消本活動之權利，若有相關異動將公布於網站，恕不另行通知。</p>
+
+                  </div>
+                  
+               </div>
+            </div>
+         </div>
+
+      </section>
+      <!--End faq section-->
+
+      <!--Gallery section 先隱藏-->
+      <!-- <section id="gallery" class="gallery pt-120">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2 mb-130 ">
+                     <svg version="1.1" id="Layer_12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        width="40px" height="30px" viewBox="0 0 42 32" enable-background="new 0 0 42 32" xml:space="preserve">
+                        <linearGradient id="SVGID_12_" gradientUnits="userSpaceOnUse" x1="0.9386" y1="24.9189" x2="42.6053" y2="8.5439">
+                           <stop  offset="0" style="stop-color:#399BFF"/>
+                           <stop  offset="1" style="stop-color:#EE71F9"/>
+                        </linearGradient>
+                        <path fill="url(#SVGID_12_)" d="M39.5,6H32c-1.927,0-1.998-1.797-2-2V3c0-1.258-1.39-3-4-3h-9.969c-2.935,0-4,1.794-4,3v0.994
+                           C12.03,4.076,11.983,6,10,6H2.5C1.121,6,0,7.122,0,8.5v18C0,27.878,1.121,29,2.5,29h6C8.776,29,9,28.776,9,28.5S8.776,28,8.5,28h-6
+                           C1.673,28,1,27.327,1,26.5V14h8.003C8.359,15.54,8,17.229,8,19c0,7.168,5.832,13,13,13s13-5.832,13-13c0-1.771-0.359-3.46-1.003-5
+                           H41v12.5c0,0.827-0.673,1.5-1.5,1.5h-7c-0.276,0-0.5,0.224-0.5,0.5s0.224,0.5,0.5,0.5h7c1.379,0,2.5-1.122,2.5-2.5v-18
+                           C42,7.122,40.879,6,39.5,6z M21,31c-6.617,0-12-5.383-12-12S14.383,7,21,7s12,5.383,12,12S27.617,31,21,31z M32.75,13
+                           c-0.074,0-0.143,0.018-0.206,0.047C30.38,8.868,26.022,6,21,6s-9.38,2.868-11.544,7.047C9.393,13.018,9.324,13,9.25,13H1V8.5
+                           C1,7.673,1.673,7,2.5,7H10c2.368,0,3.019-1.958,3.031-3V3c0-0.804,0.799-2,3-2H26c2.094,0,3,1.324,3,2v1c0,1.038,0.627,3,3,3h7.5
+                           C40.327,7,41,7.673,41,8.5V13H32.75z"/>
+                        <linearGradient id="SVGID_13_" gradientUnits="userSpaceOnUse" x1="-5.5546" y1="8.3968" x2="36.1121" y2="-7.9782">
+                           <stop  offset="0" style="stop-color:#399BFF"/>
+                           <stop  offset="1" style="stop-color:#EE71F9"/>
+                        </linearGradient>
+                        <path fill="url(#SVGID_13_)" d="M9.5,5C9.776,5,10,4.776,10,4.5v-1C10,2.673,9.327,2,8.5,2h-4C3.673,2,3,2.673,3,3.5v1
+                           C3,4.776,3.224,5,3.5,5S4,4.776,4,4.5v-1C4,3.224,4.225,3,4.5,3h4C8.775,3,9,3.224,9,3.5v1C9,4.776,9.224,5,9.5,5z"/>
+                        <linearGradient id="SVGID_15_" gradientUnits="userSpaceOnUse" x1="1.6076" y1="26.6212" x2="43.2743" y2="10.2462">
+                           <stop  offset="0" style="stop-color:#399BFF"/>
+                           <stop  offset="1" style="stop-color:#EE71F9"/>
+                        </linearGradient>
+                        <path fill="url(#SVGID_15_)" d="M21,10c-4.963,0-9,4.038-9,9s4.037,9,9,9s9-4.038,9-9S25.963,10,21,10z M21,27c-4.411,0-8-3.589-8-8
+                           s3.589-8,8-8s8,3.589,8,8S25.411,27,21,27z"/>
+                     </svg>
+                     <h1 class="title mt-10"> Memories From The Events  </h1>
+                     <p class="title-lead mt-5">For more photo and video visit our socials hubs.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-12 ">
+                     <ul class="block-gallery">
+                        <li class="col-sm-2 ">
+                           <a href="img/12.jpg" class="venobox">
+                              <div class="block-img">
+                                 <div class="background-img">
+                                    <img alt="" src="img/12.jpg" style="display: none;">
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="col-sm-2 ">
+                           <a href="img/13.jpg" class="venobox">
+                              <div class="block-img">
+                                 <div class="background-img">
+                                    <img alt="" src="img/13.jpg" style="display: none;">
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="active col-sm-2 ">
+                           <a href="img/14.jpg" class="venobox">
+                              <div class="block-img">
+                                 <div class="background-img">
+                                    <img alt="" src="img/14.jpg" style="display: none;">
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="col-sm-2 ">
+                           <a href="img/15.jpg" class="venobox">
+                              <div class="block-img">
+                                 <div class="background-img">
+                                    <img alt="" src="img/15.jpg" style="display: none;">
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="col-sm-2 ">
+                           <a href="img/16.jpg" class="venobox">
+                              <div class="block-img">
+                                 <div class="background-img">
+                                    <img alt="" src="img/16.jpg" style="display: none;">
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="col-sm-2 ">
+                           <a href="img/17.jpg" class="venobox">
+                              <div class="block-img">
+                                 <div class="background-img">
+                                    <img alt="" src="img/17.jpg" style="display: none;">
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </section> -->
+      <!--End gallery section-->
+
+      <footer class="pt-120">
+         <div class="container ">
+            <div class="row">
+               <div id="footer_bottom">
+                  <div id="slogan_wrapper">
+                     <img src="img/slogan_ch.svg" alt="" class="slogans svg_content" id="slogan_cn"
+                        onerror="this.onerror=null; this.src='/images/slogan_ch.png'" data-src="/images/slogan_ch.png">
+                     <img src="img/slogan_en.svg" alt="" class="slogans svg_content" id="slogan_en"
+                        onerror="this.onerror=null; this.src='/images/slogan_en.png'" data-src="/images/slogan_en.png">
+                  </div>
+                  <div id="footer_info_wrapper">
+                     <div class="footer_info_contents"><span>地址：114 台北市內湖區瑞光路513巷37號4樓</span><span>電子郵件地址：<a
+                              href="mailto:service@storm.mg" id="mailaddress">service@storm.mg</a></span></div>
+
+                     <div id="copyright" class="footer_info_contents">Copyright © 2021 Storm Media Group All Rights
+                        Reserved. ◎未經授權．不得轉載</div>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </footer>
+
+      <div class="cloud3"></div>
+      <!--cloud-->
+   </div>
+
+   <!-- End wrapper-->
+
+   <!--Javascript-->
+   <script src="js/jquery-1.12.4.min.js" type="text/javascript"></script>
+   <script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+   <script src="js/jquery.countdown.min.js" type="text/javascript"></script>
+   <script src="js/smooth-scroll.js" type="text/javascript"></script>
+   <script src="js/jquery.validate.min.js" type="text/javascript"></script>
+   <script src="js/placeholders.min.js" type="text/javascript"></script>
+   <script src="js/venobox.min.js" type="text/javascript"></script>
+   <script src="js/instafeed.min.js" type="text/javascript"></script>
+   <script src="js/script.js" type="text/javascript"></script>
+   <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbGQXiGt-6UAmOFFdSzYI-byeE7ewBuVM&callback=initializeMap">
+   </script>
+   <!-- Google analytics -->
+   <!-- End google analytics -->
+
+   <!-- <script src="js/jquery.flexslider.js"></script> -->
+   <!-- <script type="text/javascript" charset="utf-8">
+         $(window).load(function() {
+         $('.flexslider').flexslider();
+         }); -->
+   </script>
+
+   <!-- tab topics -->
+   <script>
+      function openTopic(topicName) {
+         var i;
+         var x = document.getElementsByClassName("topic");
+         for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+         }
+         document.getElementById(topicName).style.display = "block";
+      }
+   </script>
+
+   <!-- lightbox-->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js" type="text/javascript"></script>
+
+
+   <!-- tab schedule -->
+   <!-- <script>
+         function openScheduletab(scheduletabName) {
+           var i;
+           var x = document.getElementsByClassName("scheduletab");
+           for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";  
+           }
+           document.getElementById(scheduletabName).style.display = "block";  
+         }
+      </script> -->
+
+
+
+</body>
+
+</html>
