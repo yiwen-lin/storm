@@ -585,11 +585,17 @@ ul.block-topic li {
     display: inline-block;
     font-size: 18px;
     letter-spacing:2px;
-    width:69%;
+    width:100%;
 }
 .block-tab .block-detail span.topic-s {
     font-size:16px;
     font-weight:600;
+}
+.block-tab .block-detail span.topic-speaker {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #004e89;
 }
 .block-tab .block-detail .time {
     display: inline-block;

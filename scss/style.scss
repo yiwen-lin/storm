@@ -202,8 +202,14 @@ body {
             margin:0 30px;
         }
     }
+    .block-tab .block-detail span.topic-speaker {
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 10px;
+    }
 
 }
+
 
 //tickets
 .tickets {
@@ -214,8 +220,18 @@ body {
     .block-tickets {
         margin-bottom: 30px;
     }
+    ul.list {
+        font-size: 15px;
+        line-height: 1.5;
+        font-weight: 300;
+        color: #555;
+        padding-left: 20px;
+        li {
+            list-style: disc;
+            margin-bottom: 10px;
+        }
+    }
 }
-
 
 
 //tickets2

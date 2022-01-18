@@ -179,6 +179,12 @@ body:before {
   margin: 0 30px;
 }
 
+.schedule .block-tab .block-detail span.topic-speaker {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
 .tickets .block-ticket .block-price .block-type {
   font-size: 22px;
   margin-top: 30px;
@@ -186,6 +192,19 @@ body:before {
 
 .tickets .block-tickets {
   margin-bottom: 30px;
+}
+
+.tickets ul.list {
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #555;
+  padding-left: 20px;
+}
+
+.tickets ul.list li {
+  list-style: disc;
+  margin-bottom: 10px;
 }
 
 .tickets2 .slides img {
