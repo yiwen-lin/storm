@@ -372,6 +372,7 @@ h1.large {
 /* Speakers section*/
 
 .block-img {
+    cursor: pointer;
     height: 350px;
     position: relative;
 }
@@ -402,18 +403,18 @@ h1.large {
     content: none;
 }
 .block-speaker .block-img .background-img {
-    filter: grayscale(0.8);
-    -webkit-filter: grayscale(0.8);
-    -moz-filter: grayscale(0.8);
-    -ms-filter: grayscale(0.8);
-    -o-filter: grayscale(0.8);
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -ms-filter: blur(0px);
+    -o-filter: blur(0px);
 }
 .block-speaker .block-img:hover .background-img {
-    filter: grayscale(0);
-    -webkit-filter: grayscale(0);
-    -moz-filter: grayscale(0);
-    -ms-filter: grayscale(0);
-    -o-filter: grayscale(0);
+    filter: blur(1.5px);
+    -webkit-filter: blur(1.5px);
+    -moz-filter: blur(1.5px);
+    -ms-filter: blur(1.5px);
+    -o-filter: blur(1.5px);
 }
 .block-info-2 {
     bottom: 30px;
@@ -583,7 +584,7 @@ ul.block-topic li {
 }
 .block-tab .block-detail span {
     display: inline-block;
-    font-size: 18px;
+    font-size: 20px;
     letter-spacing:2px;
     width:100%;
 }
