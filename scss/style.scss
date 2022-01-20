@@ -145,13 +145,13 @@ body {
 
 //survey
 .survey {
-    iframe {
-        position: relative;
-        background: transparent;
-        margin: 0 auto;
-        width:80%;
-        height: 800px;
-    }
+    // iframe {
+    //     position: relative;
+    //     background: transparent;
+    //     margin: 0 auto;
+    //     width:80%;
+    //     height: 800px;
+    // }
 }
 
 
@@ -335,23 +335,6 @@ body {
 }
 
 
-
-//cloud-op
-// .cloud-op {
-//     position: relative;
-//     z-index: 1;
-//     &::after {
-//         content: '';
-//         background: url(../img/cloud-3.png) center center no-repeat;
-//         background-size: contain;
-//         width: 1000px;
-//         height: 495px;
-//         position:absolute;
-//         top: -200px;
-//         right: -300px;
-//     }
-// }
-
 //cloud
 .cloud {
     position: relative;
@@ -378,7 +361,7 @@ body {
         width: 1000px;
         height: 540px;
         position:absolute;
-        top: -250px;
+        top: -300px;
         left: -400px;
     }
 }
