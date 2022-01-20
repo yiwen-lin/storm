@@ -135,6 +135,14 @@ body:before {
   z-index: -99;
 }
 
+.survey iframe {
+  position: relative;
+  background: transparent;
+  margin: 0 auto;
+  width: 80%;
+  height: 800px;
+}
+
 .speakers .block-info-speaker {
   top: 30px;
   left: 30px;
