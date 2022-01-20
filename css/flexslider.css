@@ -234,7 +234,7 @@ html[xmlns] .slides {
 	background: none;
 	cursor: pointer;
 	text-indent: -9999px;
-	border: 1px solid #fff;
+	border: 1px solid #aaa;
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	-o-border-radius: 20px;
@@ -244,16 +244,16 @@ html[xmlns] .slides {
 }
 
 .flex-control-paging li a:hover {
-	background: #fff;
+	background: #aaa;
 }
 
 .flex-control-paging li a.flex-active {
 	position: relative;
 	cursor: default;
 	border: none;
-	background: #fff;
+	background: #aaa;
 	opacity: 1;
-	border: 1px solid #fff;
+	border: 1px solid #aaa;
 }
 
 

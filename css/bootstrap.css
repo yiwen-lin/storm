@@ -5120,7 +5120,7 @@ button.close {
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
   outline: 0;
-  background-color: rgba(0, 0, 0, .08);
+  background-color: rgba(0, 0, 0, .5);
 }
 
 .modal.fade .modal-dialog {
@@ -5153,7 +5153,7 @@ button.close {
 }
 .modal-content {
   position: relative;
-  background-color: #48c2e9;
+  background-color: #2ab2dd;
   /* -webkit-background-clip: padding-box;
           background-clip: padding-box;
   border: 1px solid #999;
@@ -5226,6 +5226,7 @@ button.close {
   .modal-content {
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
             box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+            border-radius: 5px;
   }
   .modal-sm {
     width: 300px;
@@ -5489,8 +5490,22 @@ button.close {
 }
 .carousel-inner {
   position: relative;
-  width: 100%;
+  /* width: 100%; */
   overflow: hidden;
+  width: 600px;
+  height: 570px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 767px) { 
+  .carousel-inner {
+    position: relative;
+    width: 100%;
+    height: auto;
+    /* overflow: scroll; */
+  }
 }
 .carousel-inner > .item {
   position: relative;

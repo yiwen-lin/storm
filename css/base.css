@@ -254,6 +254,10 @@ p,
 blockquote {
     line-height: 1.7;
     margin-bottom: 20px;
+    font-weight: 300;
+}
+p:last-child {
+    margin-bottom: 0px;
 }
 .title {
     margin-bottom: 40px;
@@ -298,6 +302,11 @@ blockquote {
 }
 p.title-lead {
     font-size: 17.5px;
+}
+@media only screen and (max-width: 767px) {
+    p.title-lead {
+        text-align: left;
+    }
 }
 section,
 .section,
@@ -498,217 +507,217 @@ p a:after {
 /*Misc */
 
 .pt-10 {
-    padding-top: 10px !important;
+    padding-top: 10px ;
 }
 .pb-10 {
-    padding-bottom: 10px !important;
+    padding-bottom: 10px ;
 }
 .pt-15 {
-    padding-top: 15px !important;
+    padding-top: 15px ;
 }
 .pb-15 {
-    padding-bottom: 15px !important;
+    padding-bottom: 15px ;
 }
 .pt-20 {
-    padding-top: 20px !important;
+    padding-top: 20px ;
 }
 .pb-20 {
-    padding-bottom: 20px !important;
+    padding-bottom: 20px ;
 }
 .pt-25 {
-    padding-top: 25px !important;
+    padding-top: 25px ;
 }
 .pb-25 {
-    padding-bottom: 25px !important;
+    padding-bottom: 25px ;
 }
 .pt-30 {
-    padding-top: 30px !important;
+    padding-top: 30px ;
 }
 .pb-30 {
-    padding-bottom: 30px !important;
+    padding-bottom: 30px ;
 }
 .pt-40 {
-    padding-top: 40px !important;
+    padding-top: 40px ;
 }
 .pb-40 {
-    padding-bottom: 40px !important;
+    padding-bottom: 40px ;
 }
 .pt-50 {
-    padding-top: 50px !important;
+    padding-top: 50px ;
 }
 .pb-50 {
-    padding-bottom: 50px !important;
+    padding-bottom: 50px ;
 }
 .pt-60 {
-    padding-top: 60px !important;
+    padding-top: 60px ;
 }
 .pb-60 {
-    padding-bottom: 60px !important;
+    padding-bottom: 60px ;
 }
 .pt-70 {
-    padding-top: 70px !important;
+    padding-top: 70px ;
 }
 .pb-70 {
-    padding-bottom: 70px !important;
+    padding-bottom: 70px ;
 }
 .pt-80 {
-    padding-top: 80px !important;
+    padding-top: 80px ;
 }
 .pb-80 {
-    padding-bottom: 80px !important;
+    padding-bottom: 80px ;
 }
 .pt-90 {
-    padding-top: 90px !important;
+    padding-top: 90px ;
 }
 .pb-90 {
-    padding-bottom: 90px !important;
+    padding-bottom: 90px ;
 }
 .pt-100 {
-    padding-top: 100px !important;
+    padding-top: 100px ;
 }
 .pb-100 {
-    padding-bottom: 100px !important;
+    padding-bottom: 100px ;
 }
 .pt-120 {
-    padding-top: 120px !important;
+    padding-top: 120px ;
 }
 .pb-120 {
-    padding-bottom: 120px !important;
+    padding-bottom: 120px ;
 }
 .pt-130 {
-    padding-top: 130px !important;
+    padding-top: 130px ;
 }
 .pb-130 {
-    padding-bottom: 130px !important;
+    padding-bottom: 130px ;
 }
 .pt-140 {
-    padding-top: 140px !important;
+    padding-top: 140px ;
 }
 .pb-140 {
-    padding-bottom: 140px !important;
+    padding-bottom: 140px ;
 }
 .pt-150 {
-    padding-top: 150px !important;
+    padding-top: 150px ;
 }
 .pb-150 {
-    padding-bottom: 150px !important;
+    padding-bottom: 150px ;
 }
 .pt-160 {
-    padding-top: 160px !important;
+    padding-top: 160px ;
 }
 .pb-160 {
-    padding-bottom: 160px !important;
+    padding-bottom: 160px ;
 }
 .pt-200 {
-    padding-top: 200px !important;
+    padding-top: 200px ;
 }
 .pb-200 {
-    padding-bottom: 200px !important;
+    padding-bottom: 200px ;
 }
 .pt-250 {
-    padding-top: 250px !important;
+    padding-top: 250px ;
 }
 .pb-250 {
-    padding-bottom: 250px !important;
+    padding-bottom: 250px ;
 }
 .mt-5 {
-    margin-top: 5px !important;
+    margin-top: 5px ;
 }
 .mb-5 {
-    margin-bottom: 5px !important;
+    margin-bottom: 5px ;
 }
 .mt-10 {
-    margin-top: 10px !important;
+    margin-top: 10px ;
 }
 .mb-10 {
-    margin-bottom: 10px !important;
+    margin-bottom: 10px ;
 }
 .mt-15 {
-    margin-top: 15px !important;
+    margin-top: 15px ;
 }
 .mb-15 {
-    margin-bottom: 15px !important;
+    margin-bottom: 15px ;
 }
 .mt-20 {
-    margin-top: 20px !important;
+    margin-top: 20px ;
 }
 .mb-20 {
-    margin-bottom: 20px !important;
+    margin-bottom: 20px ;
 }
 .mt-25 {
-    margin-top: 25px !important;
+    margin-top: 25px ;
 }
 .mb-25 {
-    margin-bottom: 25px !important;
+    margin-bottom: 25px ;
 }
 .mt-30 {
-    margin-top: 30px !important;
+    margin-top: 30px ;
 }
 .mb-30 {
-    margin-bottom: 30px !important;
+    margin-bottom: 30px ;
 }
 .mt-40 {
-    margin-top: 40px !important;
+    margin-top: 40px ;
 }
 .mb-40 {
-    margin-bottom: 40px !important;
+    margin-bottom: 40px ;
 }
 .mt-50 {
-    margin-top: 50px !important;
+    margin-top: 50px ;
 }
 .mb-50 {
-    margin-bottom: 50px !important;
+    margin-bottom: 50px ;
 }
 .mt-60 {
-    margin-top: 60px !important;
+    margin-top: 60px ;
 }
 .mb-60 {
-    margin-bottom: 60px !important;
+    margin-bottom: 60px ;
 }
 .mt-70 {
-    margin-top: 70px !important;
+    margin-top: 70px ;
 }
 .mb-70 {
-    margin-bottom: 70px !important;
+    margin-bottom: 70px ;
 }
 .mt-80 {
-    margin-top: 80px !important;
+    margin-top: 80px ;
 }
 .mb-80 {
-    margin-bottom: 80px !important;
+    margin-bottom: 80px ;
 }
 .mt-90 {
-    margin-top: 90px !important;
+    margin-top: 90px ;
 }
 .mb-90 {
-    margin-bottom: 90px !important;
+    margin-bottom: 90px ;
 }
 .mt-100 {
-    margin-top: 100px !important;
+    margin-top: 100px ;
 }
 .mb-100 {
-    margin-bottom: 100px !important;
+    margin-bottom: 100px ;
 }
 .mt-130 {
-    margin-top: 130px !important;
+    margin-top: 130px ;
 }
 .mb-130 {
-    margin-bottom: 130px !important;
+    margin-bottom: 130px ;
 }
 .mt-150 {
-    margin-top: 150px !important;
+    margin-top: 150px ;
 }
 .mb-150 {
-    margin-bottom: 150px !important;
+    margin-bottom: 150px ;
 }
 .mt-200 {
-    margin-top: 200px !important;
+    margin-top: 200px ;
 }
 .mt-350 {
-    margin-top: 350px !important;
+    margin-top: 350px ;
 }
 .mb-200 {
-    margin-bottom: 200px !important;
+    margin-bottom: 200px ;
 }
 .not-mb {
     margin-bottom: 0;
@@ -717,13 +726,13 @@ p a:after {
     border-bottom: 1px #444444 solid;
 }
 .bg-dark {
-    background: #f9f9f9;
+    background: #fdfdfd;
 }
 .bg-black {
     /* background: #62cfeb; */
 }
 .pd-0 {
-    padding: 0 !important;
+    padding: 0 ;
 }
 a[href^="http://maps.google.com/maps"] {
     display: none !important
@@ -744,27 +753,27 @@ a[href^="https://maps.google.com/maps"] {
 
 @media only screen and (max-width: 767px) {
     .mt-50 {
-        margin-top: 20px !important;
+        margin-top: 20px ;
     }
     .mb-100 {
-        margin-bottom: 60px !important;
+        margin-bottom: 60px ;
     }
     .pb-120 {
-        padding-bottom: 60px !important;
+        padding-bottom: 60px ;
     }
     .pt-120 {
-        padding-top: 60px !important;
+        padding-top: 60px ;
     }
     .pb-150 {
-        padding-bottom: 100px !important;
+        padding-bottom: 100px ;
     }
     .pt-150 {
-        padding-top: 100px !important;
+        padding-top: 100px ;
     }
     .pt-200 {
-        padding-top: 0px !important;
+        padding-top: 60px ;
     }
     .pb-200 {
-        padding-bottom: 60px !important;
+        padding-bottom: 60px ;
     }
 }

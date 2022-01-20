@@ -372,7 +372,6 @@ h1.large {
 /* Speakers section*/
 
 .block-img {
-    cursor: pointer;
     height: 350px;
     position: relative;
 }
@@ -574,6 +573,11 @@ ul.block-topic li {
     display: flex;
     align-items: center;
 }
+@media only screen and (max-width: 767px) {
+    .block-tab .block-detail {
+        padding: 20px 20px 20px 16px;
+    }
+}
 .block-tab .block-detail:last-child {
     border-bottom:none;
 }
@@ -587,6 +591,11 @@ ul.block-topic li {
     font-size: 20px;
     letter-spacing:2px;
     width:100%;
+}
+@media only screen and (max-width: 767px) {
+    .block-tab .block-detail span {
+        font-size: 17.5px;
+    }
 }
 .block-tab .block-detail span.topic-s {
     font-size:16px;
@@ -606,6 +615,12 @@ ul.block-topic li {
     width:30%;
     font-size: 18px;
     letter-spacing:2px;
+}
+@media only screen and (max-width: 767px) {
+    .block-tab .block-detail .time {
+        margin-right: 20px;
+        text-align: center;
+    }
 }
 .block-tab .block-detail:hover .time {
     /* color: #fff; */
