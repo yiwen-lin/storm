@@ -5107,7 +5107,8 @@ button.close {
   border: 0;
 }
 .modal-open {
-  overflow: hidden;
+  /* overflow: hidden; */
+  overflow: scroll;
 }
 .modal {
   position: fixed;
@@ -5158,7 +5159,7 @@ button.close {
           background-clip: padding-box;
   border: 1px solid #999;
   border: 1px solid rgba(0, 0, 0, .2); */
-  /* border-radius: 6px; */
+  border-radius: 6px;
   outline: 0;
   /* -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
           box-shadow: 0 3px 9px rgba(0, 0, 0, .5); */
@@ -5493,11 +5494,12 @@ button.close {
   /* width: 100%; */
   overflow: hidden;
   width: 600px;
-  height: 570px;
+  height:auto;
+  /* height: 570px; */
 
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
 }
 @media only screen and (max-width: 767px) { 
   .carousel-inner {
