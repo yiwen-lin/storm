@@ -103,6 +103,12 @@ body {
 .about {
     .block-info-1 {
         p {
+            a {
+                color: #000;
+                &:hover {
+                    color: #399bff;
+                }
+            }
             strong {
                 font-size:20px;
             }
@@ -125,6 +131,10 @@ body {
             background: url(../img/bg2.png) 45% 0 no-repeat;
         }
     }
+    a:hover:after, span a:hover:after {
+        opacity: 0;
+    }
+    
 }
 
 //live 
@@ -145,7 +155,7 @@ body {
 
 //survey
 .survey {
-    background:#fffaad;
+    background:#ffffff;
     .pd-mb-0 {
         @media only screen and (max-width: 767px) {
             padding: 0px;
@@ -161,6 +171,7 @@ body {
             // position:absolute;
             // top:0;
             // width:100%;
+
         }
     }
     iframe {
@@ -169,10 +180,11 @@ body {
         margin: 0 auto;
         width:80%;
         min-height: 100%;
-        height: 500px;
+        height: 730px;
         @media only screen and (max-width: 767px) {
             width: 100%;
             // min-height: 900px;
+            height: 660px;
         }
     }
 
@@ -204,6 +216,7 @@ body {
         padding: 20px 25px;
         color: #fff;
         .topic {
+            margin-bottom:20px;
             &::after {
                 display: block;
                 content: "";
@@ -219,7 +232,6 @@ body {
         }
 
         h3 {
-            margin-top:20px;
             font-size:30px;
             font-weight:300;
             margin-bottom: 10px;
@@ -361,6 +373,15 @@ body {
     }
 }
 
+//accom 
+.accom  {
+    .sub-title-2 {
+        text-align: justify;
+    }
+    p.txt-p {
+        font-size:15px;
+    }
+}
 
 //cloud
 .cloud {

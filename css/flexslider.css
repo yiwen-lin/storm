@@ -52,6 +52,7 @@
 .flexslider .slides li {
 	position: relative;
 	padding: 0px 100px 30px;
+	min-height: 194px;
 }
 
 /* Clearfix for the .slides element */

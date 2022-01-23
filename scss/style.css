@@ -99,6 +99,14 @@ body:before {
   }
 }
 
+.about .block-info-1 p a {
+  color: #000;
+}
+
+.about .block-info-1 p a:hover {
+  color: #399bff;
+}
+
 .about .block-info-1 p strong {
   font-size: 20px;
 }
@@ -125,6 +133,10 @@ body:before {
   }
 }
 
+.about a:hover:after, .about span a:hover:after {
+  opacity: 0;
+}
+
 .live {
   width: 100%;
   position: relative;
@@ -136,7 +148,7 @@ body:before {
 }
 
 .survey {
-  background: #fffaad;
+  background: #ffffff;
 }
 
 @media only screen and (max-width: 767px) {
@@ -151,12 +163,13 @@ body:before {
   margin: 0 auto;
   width: 80%;
   min-height: 100%;
-  height: 500px;
+  height: 730px;
 }
 
 @media only screen and (max-width: 767px) {
   .survey iframe {
     width: 100%;
+    height: 660px;
   }
 }
 
@@ -183,6 +196,10 @@ body:before {
   color: #fff;
 }
 
+.speakers .item .topic {
+  margin-bottom: 20px;
+}
+
 .speakers .item .topic::after {
   display: block;
   content: "";
@@ -198,7 +215,6 @@ body:before {
 }
 
 .speakers .item h3 {
-  margin-top: 20px;
   font-size: 30px;
   font-weight: 300;
   margin-bottom: 10px;
@@ -333,6 +349,14 @@ body:before {
   .location {
     padding-top: 0;
   }
+}
+
+.accom .sub-title-2 {
+  text-align: justify;
+}
+
+.accom p.txt-p {
+  font-size: 15px;
 }
 
 .cloud {

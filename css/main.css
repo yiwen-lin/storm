@@ -351,9 +351,10 @@ h1.large {
         margin-top: 50px;
     }
 }
-.block-info-1 svg {
+.block-info-1 img {
     color: #0062c7 ;
-    font-size: 25px;
+    width: 40px;
+    height: 40px;
     position: absolute;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
@@ -361,7 +362,7 @@ h1.large {
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     left: 0;
-    top: 50%;
+    top: 30%;
 }
 .block-info-1 p {
     margin-left: 60px;
@@ -585,6 +586,7 @@ ul.block-topic li {
     /* background: #121212; */
     /* background: #399bff; */
     color:#399bff; ;
+    cursor: inherit;
 }
 .block-tab .block-detail span {
     display: inline-block;
