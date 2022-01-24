@@ -621,7 +621,7 @@ ul.block-topic li {
 @media only screen and (max-width: 767px) {
     .block-tab .block-detail .time {
         margin-right: 20px;
-        text-align: center;
+        text-align: left;
     }
 }
 .block-tab .block-detail:hover .time {
@@ -681,6 +681,11 @@ ul.block-topic li {
     line-height: 1.6;
     overflow: hidden;
     font-family: 'source-han-serif-tc';
+}
+@media only screen and (max-width: 767px) {
+    .review-slider li blockquote {
+        font-size: 24px;
+    } 
 }
 .tickets .col-sm-6 {
     padding-left: 0;
@@ -1486,7 +1491,7 @@ select.error {
         width: 100%;
         position: relative;
         height: 400px;
-        margin-bottom: 40px;
+        margin-bottom: 80px;
     }
 
     .col-sm-4.col-sm-offset-2.text-center {

@@ -184,7 +184,7 @@ body {
         @media only screen and (max-width: 767px) {
             width: 100%;
             // min-height: 900px;
-            height: 660px;
+            height: 684px;
         }
     }
 
@@ -299,7 +299,7 @@ body {
 .schedule {
     .ticket-block {
         .but {
-            margin:0 30px;
+            margin:15px 30px;
         }
     }
     .block-tab .block-detail span.topic-speaker {
@@ -340,7 +340,7 @@ body {
         img {
             display:block;
             @media only screen and (max-width: 767px) {
-                width: 60%;
+                width: 50%;
                 margin: 0 auto 30px;
             }
         }
@@ -349,7 +349,15 @@ body {
         li {
             blockquote {
                 padding-left: 50px;
+                @media only screen and (max-width: 767px) {
+                    padding-left: 20px;
+                }
             }
+        }
+    }
+    @media only screen and (max-width: 767px) {
+    .title-lead {
+            text-align: center;
         }
     }
 }
@@ -368,6 +376,11 @@ body {
             }
         }
     }
+    img.marker {
+        width: 22px;
+        margin-bottom: 6px;
+        margin-right: 6px;
+    }
     @media only screen and (max-width: 767px) { 
         padding-top: 0;
     }
@@ -381,6 +394,14 @@ body {
     p.txt-p {
         font-size:15px;
     }
+    .block-info-1 {
+        margin-top:50px;
+    }
+    @media only screen and (max-width: 767px) {
+        .title-lead {
+                text-align: center;
+            }
+        }
 }
 
 //cloud
@@ -428,6 +449,13 @@ body {
     }
 }
 
+//a 不作用
+.isDisabled {
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.6;
+    text-decoration: none;
+}
 
 //footer
 footer{

@@ -249,6 +249,7 @@ p span {
 p span,
 li span {
     font-size: 15px;
+    line-height: 1.4;
 }
 p,
 blockquote {
@@ -303,9 +304,15 @@ p:last-child {
 p.title-lead {
     font-size: 17.5px;
 }
+p.title-lead span {
+    display: block;
+}
 @media only screen and (max-width: 767px) {
     p.title-lead {
         text-align: left;
+    }
+    p.title-lead span {
+        display: inline;
     }
 }
 section,
@@ -459,13 +466,13 @@ a.link {
     min-height: 22px;
 }
 a.link:after {
-    bottom: 0px;
+    bottom: -4px;
     content: "";
     right: 0;
     position: absolute;
     width: 100%;
     z-index: 4;
-    height: 3px;
+    height: 2px;
 }
 a.link:after,
 .but,
@@ -755,14 +762,17 @@ a[href^="https://maps.google.com/maps"] {
     .mt-50 {
         margin-top: 20px ;
     }
+    .pt-50 {
+        padding-top: 30px;
+    }
     .mb-100 {
         margin-bottom: 60px ;
     }
     .pb-120 {
-        padding-bottom: 60px ;
+        padding-bottom: 80px ;
     }
     .pt-120 {
-        padding-top: 60px ;
+        padding-top: 80px ;
     }
     .pb-150 {
         padding-bottom: 100px ;
@@ -775,5 +785,8 @@ a[href^="https://maps.google.com/maps"] {
     }
     .pb-200 {
         padding-bottom: 60px ;
+    }
+    .pt-250 {
+        padding-top: 120px;
     }
 }

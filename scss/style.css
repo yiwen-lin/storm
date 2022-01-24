@@ -169,7 +169,7 @@ body:before {
 @media only screen and (max-width: 767px) {
   .survey iframe {
     width: 100%;
-    height: 660px;
+    height: 684px;
   }
 }
 
@@ -287,7 +287,7 @@ body:before {
 }
 
 .schedule .ticket-block .but {
-  margin: 0 30px;
+  margin: 15px 30px;
 }
 
 .schedule .block-tab .block-detail span.topic-speaker {
@@ -324,13 +324,25 @@ body:before {
 
 @media only screen and (max-width: 767px) {
   .tickets2 .slides img {
-    width: 60%;
+    width: 50%;
     margin: 0 auto 30px;
   }
 }
 
 .tickets2 .review-slider li blockquote {
   padding-left: 50px;
+}
+
+@media only screen and (max-width: 767px) {
+  .tickets2 .review-slider li blockquote {
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .tickets2 .title-lead {
+    text-align: center;
+  }
 }
 
 .location .block-info-3 h5 {
@@ -345,6 +357,12 @@ body:before {
   margin-right: 10px;
 }
 
+.location img.marker {
+  width: 22px;
+  margin-bottom: 6px;
+  margin-right: 6px;
+}
+
 @media only screen and (max-width: 767px) {
   .location {
     padding-top: 0;
@@ -357,6 +375,16 @@ body:before {
 
 .accom p.txt-p {
   font-size: 15px;
+}
+
+.accom .block-info-1 {
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 767px) {
+  .accom .title-lead {
+    text-align: center;
+  }
 }
 
 .cloud {
@@ -404,6 +432,13 @@ body:before {
   position: absolute;
   bottom: 0px;
   left: 0px;
+}
+
+.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.6;
+  text-decoration: none;
 }
 
 footer #footer_bottom {
