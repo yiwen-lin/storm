@@ -208,6 +208,11 @@ body {
             margin-bottom: 0;
         }
     }
+    .arrow {
+        width:20px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
     .modal.and.carousel {
         position: fixed; // Needed because the carousel overrides the position property
       }

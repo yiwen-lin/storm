@@ -187,6 +187,12 @@ body:before {
   margin-bottom: 0;
 }
 
+.speakers .arrow {
+  width: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
 .speakers .modal.and.carousel {
   position: fixed;
 }
