@@ -248,8 +248,8 @@ p span {
 }
 p span,
 li span {
-    font-size: 15px;
-    line-height: 1.4;
+    /* font-size: 15px;
+    line-height: 1.4; */
 }
 p,
 blockquote {

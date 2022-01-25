@@ -169,7 +169,7 @@ body:before {
 @media only screen and (max-width: 767px) {
   .survey iframe {
     width: 100%;
-    height: 684px;
+    height: 730px;
   }
 }
 
@@ -253,6 +253,10 @@ body:before {
   }
 }
 
+.speakers .active {
+  background-color: transparent;
+}
+
 .topics .topic-block {
   margin: auto;
 }
@@ -280,6 +284,39 @@ body:before {
 }
 
 .topics .tab-btn:hover {
+  -webkit-transition: .3s;
+  transition: .3s;
+  background: #399bff;
+  color: #fff;
+}
+
+.accom .topic-block {
+  margin: auto;
+}
+
+.accom .tab-btn {
+  border: none;
+  background: #fff;
+  padding: 11px 36px;
+  border-radius: 25px;
+  margin: 0 14px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+@media only screen and (max-width: 767px) {
+  .accom .tab-btn {
+    padding: 10px 16px;
+    margin: 0 10px 18px;
+  }
+}
+
+.accom .active {
+  background: #399bff;
+  color: #fff;
+}
+
+.accom .tab-btn:hover {
   -webkit-transition: .3s;
   transition: .3s;
   background: #399bff;
@@ -339,9 +376,17 @@ body:before {
   }
 }
 
+.tickets2 span {
+  display: block;
+}
+
 @media only screen and (max-width: 767px) {
   .tickets2 .title-lead {
     text-align: center;
+  }
+  .tickets2 span {
+    display: inline;
+    margin-right: 20px;
   }
 }
 

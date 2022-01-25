@@ -184,10 +184,9 @@ body {
         @media only screen and (max-width: 767px) {
             width: 100%;
             // min-height: 900px;
-            height: 684px;
+            height: 730px;
         }
     }
-
 }
 
 
@@ -262,6 +261,9 @@ body {
             transform: translate(0, 5%);
         }
     }
+    .active {
+        background-color:transparent;
+    }
     
 }
 
@@ -291,9 +293,34 @@ body {
         background: rgb(57, 155, 255);
         color: #fff ;
     }
-    
-
 }
+.accom {
+    .topic-block {
+        margin: auto;
+    }
+    .tab-btn {
+        border: none;
+        background: #fff;
+        padding: 11px 36px;
+        border-radius: 25px;
+        margin:0 14px;
+        transition:.3s;
+        @media only screen and (max-width: 767px) {
+            padding: 10px 16px;
+            margin: 0 10px 18px;
+        }
+    }
+    .active {
+        background: rgb(57, 155, 255);
+        color: #fff ;
+    }
+    .tab-btn:hover {
+        transition:.3s;
+        background: rgb(57, 155, 255);
+        color: #fff ;
+    }
+}
+
 
 //Schedule
 .schedule {
@@ -355,11 +382,19 @@ body {
             }
         }
     }
+    span {
+        display: block;
+    }
     @media only screen and (max-width: 767px) {
-    .title-lead {
+        .title-lead {
             text-align: center;
         }
+        span {
+            display: inline;
+            margin-right: 20px;
+        }
     }
+
 }
 
 //location
