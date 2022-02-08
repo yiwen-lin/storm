@@ -2,18 +2,21 @@
 <html lang="en">
 
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
+   <!-- Global site tag (gtag.js) - Google Analytics -->
    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58197782-2"></script>
    <script>
-   window.dataLayer = window.dataLayer || [];
-   function gtag(){dataLayer.push(arguments);}
-   gtag('js', new Date());
-   gtag('config', 'UA-58197782-2');
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+         dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'UA-58197782-2');
    </script>
    <script src='//www.storm.mg/js/core/tracking.js?_v=1'></script>
    <script src='//www.storm.mg/js/core/smg.js?_v=1'></script>
    <script src='//www.storm.mg/js/core/unidata.js?_v=1'></script>
-	
+
    <!-- Metas -->
    <meta charset="utf-8">
    <title>風傳媒 8週年論壇</title>
@@ -27,7 +30,7 @@
    <meta property="og:image" content="https://events.storm.mg/campaign/2022SMCF_1/img/1200x630.jpg">
    <meta content="zh_TW" property="og:locale">
    <link rel="apple-touch-icon" sizes="180x180" href="/img/touch-icon-retina.png">
-	<link href="img/favicon.ico" rel="shortcut icon">
+   <link href="img/favicon.ico" rel="shortcut icon">
 
    <!-- Css -->
    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
@@ -124,9 +127,11 @@
                            <li><a class="scroll" href="#survey">趨勢調查</a></li>
                            <li><a class="scroll" href="#speakers">論壇講者</a></li>
                            <li><a class="scroll" href="#topics">論壇議題</a></li>
-                           <!-- <li><a class="scroll" href="#accom">專題報導</a></li> -->
+                           <li><a class="scroll" href="#accom">專題報導</a></li>
                            <li><a class="scroll" href="#schedule">論壇議程</a></li>
-                           <li><a class="scroll buy-btn isDisabled" href="">即將開放報名</a></li>
+                           <li><a class="scroll buy-btn"
+                                 href="https://docs.google.com/forms/d/e/1FAIpQLSckqFkZGs05Z0Pj9osCmtlqUp3kWiUk72F4lwhm1EfoeOx1rQ/viewform"
+                                 target="_blank">免費報名直播</a></li>
                         </ul>
                      </nav>
                   </div>
@@ -144,7 +149,7 @@
                      </div>
                      <div class="op-title"><img src="img/title-row.svg" alt=""></div>
                      <div class="op-wrap op-wrap2">
-                        <p class="date">2022.02.23 13:30-16:30</p>
+                        <p class="date">2022.02.23 13:30-16:40</p>
                         <p>台北晶華酒店 宴會廳</p>
                      </div>
                      <!-- <a href="#register" class="but scroll "> Register Now</a> -->
@@ -163,7 +168,8 @@
             <div class="row">
                <div class="col-sm-8 col-sm-offset-2 mb-100">
                   <h1 class="title text-center">風傳媒8週年論壇 ＆ 啟程2022</h1>
-                  <p class="title-lead mt-20">蔓延全球的新冠疫情打破了我們對於生命、生活和生態的想像。現實世界刻意維持的社交距離、城市與國家間凍結的旅行，人與人的關係瞬間化為交織於網路的千絲萬縷，虛擬世界生機更加蓬勃。</p>
+                  <p class="title-lead mt-20">
+                     蔓延全球的新冠疫情打破了我們對於生命、生活和生態的想像。現實世界刻意維持的社交距離、城市與國家間凍結的旅行，人與人的關係瞬間化為交織於網路的千絲萬縷，虛擬世界生機更加蓬勃。</p>
                   <p class="title-lead mt-20">面對重構中的秩序，風傳媒關心台灣整體「經濟」，以及「金融」、「科技」、「環境」、「能源」等各大產業是以何種姿態回應復甦的世界？</p>
                   <p class="title-lead mt-20">2022年有許多美好值得我們期待和想像。藉著8週年社慶，風傳媒邀請各界與我們一同關注「風起之勢」，站上機會的浪尖，領航未來。</p>
                </div>
@@ -195,13 +201,14 @@
                      <img src="img/icon-3.svg" alt="">
                      <p>
                         <strong><a href="#accom">專題報導</a></strong>
-                        <span>產業趨勢專題報導 (即將上線)</span>
+                        <span>產業趨勢專題報導</span>
                      </p>
                   </div>
                </div>
                <div class="col-md-3 col-sm-3 text-right">
                   <div class="block-info-1 block-info-ticket">
-                     <a href="#tickets" class="scroll but isDisabled">即將開放報名</a>
+                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSckqFkZGs05Z0Pj9osCmtlqUp3kWiUk72F4lwhm1EfoeOx1rQ/viewform"
+                        target="_blank" class="scroll but">免費報名直播</a>
                   </div>
                </div>
             </div>
@@ -239,9 +246,10 @@
                <div class="col-md-12 text-center pd-mb-0">
                   <div class="interact_responsive_padding">
                      <div class="interact_responsive_wrapper" data-aos="fade-up" data-aos-duration="1500">
-                        <iframe class="survey-iframe" id="interactApp61e511e6bc1e1100187d96b2"
-                           style="border:none;margin:0;" allowTransparency="true" frameborder="0"
-                           src="https://quiz.tryinteract.com/#/61e511e6bc1e1100187d96b2?method=iframe"></iframe> </div>
+                        <iframe id="interactApp61e511e6bc1e1100187d96b2" width="800" height="800"
+                           style="border:none;max-width:100%;margin:0;" allowTransparency="true" frameborder="0"
+                           src="https://quiz.tryinteract.com/#/61e511e6bc1e1100187d96b2?method=iframe&mobile=1"></iframe>
+                     </div>
                   </div>
                </div>
             </div>
@@ -280,7 +288,7 @@
                      </div>
                   </div>
                </a>
-            </li> 
+            </li>
 
             <li>
                <a href="#lightbox" data-toggle="modal" data-slide-to="1">
@@ -294,7 +302,7 @@
                            <div class="block-info-2">
                               <p>
                                  <strong>鮑永哲</strong> <img src="img/icon-arrow.svg" alt="" class="arrow">
-                                 <span>HTC虛擬實境產品與策略副總經理暨<br>亞太區總經理</span>
+                                 <span>HTC VIVE 企業解決方案部門資深副總經理</span>
                               </p>
                            </div>
                         </div>
@@ -550,11 +558,24 @@
                            <div class="item">
                               <div class="topic">
                                  <span class="topic-s">專題對談：能源</span><br>
-                                 明⽇能源—台灣能源的挑戰與機會<br>
+                                 明日能源—台灣能源的挑戰與契機<br>
                               </div>
                               <h3>黃昭棠</h3>
-                              <p>
-                              </p>
+                              <p><span class="topic-t">現職</span>
+                                 華南永昌投信董事長<br>政治大學金融系校友會理事</p>
+                              <p><span class="topic-t">經歷</span>
+                                 元大投信 總經理<br>
+                                 投信投顧公會 理事<br>
+                                 元大投信指數投研團隊 執行副總經理<br>
+                                 寶來投信指數投資中心 執行長<br>
+                                 寶來證券(香港)有限公司 行銷總監<br>
+                                 中國信託商業銀行信用卡處企劃部 領組<br>
+                                 實踐大學財務金融學系 兼任助理教授<br></p>
+                              <p><span class="topic-t">榮譽</span>
+                                 2019年 第七十三屆「金商獎」優良商人獎<br>
+                                 2019年 第十五屆金彝獎「傑出企業領導人才獎」<br>
+                                 2016年 亞洲資產管理雜誌評選「亞洲區最佳ETF投資長」<br>
+                                 2015年 亞洲資產管理雜誌「最佳ETF投資長」<br></p>
                            </div>
                            <div class="item">
                               <div class="topic">
@@ -740,7 +761,7 @@
       <!--cloud-->
 
       <!--Accom section 專題報導 先隱藏-->
-      <!-- <section id="accom" class="accom pt-120 pb-120">
+      <section id="accom" class="accom pt-120 pb-120">
          <div class="container">
             <div class="row">
                <div class="col-sm-8 col-sm-offset-2 pb-50 text-center">
@@ -755,32 +776,35 @@
                <div class="col-sm-4 col-sm-offset-2 text-left mb-30">
                   <div class="block-img">
                      <div class="background-img">
-                        <img alt="" src="https://image.cache.storm.mg/styles/smg-800x533-fp-wm/s3/media/image/2022/01/23/20220123-034158_U14224_M741518_5a6e.jpg?itok=l3C2gRcf">
+                        <img alt=""
+                           src="https://image.cache.storm.mg/styles/smg-800x533-fp-wm/s3/media/image/2022/01/23/20220123-034158_U14224_M741518_5a6e.jpg?itok=l3C2gRcf">
                      </div>
                   </div>
-                  <h2 class="sub-title-2 mt-20">北市要推元宇宙？黃珊珊曝智慧城市藍圖　連丟垃圾也很高科技​</h2>
-                  <p class="mt-10 txt-p">慧城市概念聽來抽象，但在台北市，除了發揮在近2年的防疫實戰，更不知不覺改變城市生活體驗。</p>
+                  <h2 class="sub-title-2 mt-20">北市要推元宇宙？黃珊珊曝智慧城市藍圖　連丟垃圾也很高科技</h2>
+                  <p class="mt-10 txt-p">
+                     智慧城市概念聽來抽象，但在台北市，除了發揮在近2年的防疫實戰，更不知不覺改變城市生活體驗。台北市可以成為各種技術的實驗室，許多新創的設計就可以不用怕失敗，但若能成功運用，「進步就會突然發生」。
+                  </p>
                   <div class="text-center">
-                     <a href="https://www.storm.mg/article/4166294?mode=whole" class="link gradient-text" target="_blank">全文閱讀</a>
+                     <a href="https://www.storm.mg/article/4166294" class="link gradient-text" target="_blank">全文閱讀</a>
                   </div>
                </div>
                <div class="col-sm-4 text-left mb-30">
                   <div class="block-img">
                      <div class="background-img">
                         <img alt=""
-                           src="https://image.cache.storm.mg/styles/smg-800x533-fp/s3/media/image/2022/01/23/20220123-122230_U720_M741499_5f52.jpg?itok=z7riJkuA"
+                           src="https://image.cache.storm.mg/styles/smg-800x533-fp-wm/s3/media/image/2022/01/25/20220125-071833_U18448_M742152_8d4a.jpeg?itok=20adNrfT"
                            style="display: none;">
                      </div>
                   </div>
-                  <h2 class="sub-title-2 mt-20">台積電接招！《時代》獨家披露英特爾200億美元晶圓廠計畫內幕、競爭策略與分析師質疑</h2>
-                  <p class="mt-10 txt-p">新冠肺炎疫情打亂全球供應鏈，尤其是電腦晶片大缺貨，台灣台積電一枝獨秀，讓各國製造業與高科技業吃足了苦頭。</p>
+                  <h2 class="sub-title-2 mt-20">「台灣能源政策和國際背道而馳」梁啟源：再生能源緩不濟急，不如務實以核養綠</h2>
+                  <p class="mt-10 txt-p">無懼新冠疫情干擾，台灣在這兩年繳出亮眼的經濟成績單，今年還要更上一層樓，但一則以喜，一則以憂，隨著廠商營運火力全開，勢必也得面臨供電吃緊的難題。</p>
                   <div class="text-center">
-                     <a href="#" class="link gradient-text" target="_blank">全文閱讀</a>
+                     <a href="https://www.storm.mg/article/4170533" class="link gradient-text" target="_blank">全文閱讀</a>
                   </div>
                </div>
             </div>
 
-            <div class="row mt-60" data-aos="fade-up" data-aos-duration="1500">
+            <!-- <div class="row mt-60" data-aos="fade-up" data-aos-duration="1500">
                <div class="col-sm-4 col-sm-offset-2 text-left mb-30">
                   <div class="block-img">
                      <div class="background-img">
@@ -840,17 +864,17 @@
                      <a href="#" class="link gradient-text" target="_blank">全文閱讀</a>
                   </div>
                </div>
-            </div>
+            </div> -->
 
-            <div class="text-center">
+            <!-- <div class="text-center">
                <div class="block-info-1 block-info-ticket">
                   <a href="#tickets" class="scroll but">更多產業專題報導</a>
                </div>
-            </div>
+            </div> -->
 
          </div>
 
-      </section>   -->
+      </section>
       <!--End accom section-->
 
       <div class="cloud2"></div>
@@ -862,7 +886,8 @@
             <div class="row">
                <div class="col-sm-8 col-sm-offset-2 mb-50 text-center">
                   <h1 class="title">論壇議程</h1>
-                  <p class="title-lead mt-10"><span>面對重構中的秩序，風傳媒關心台灣整體「經濟」，</span><span>以及「金融」、「科技」、「環境」、「能源」等各大產業是以何種姿態回應復甦的世界？</span></p>
+                  <p class="title-lead mt-10">
+                     <span>面對重構中的秩序，風傳媒關心台灣整體「經濟」，</span><span>以及「金融」、「科技」、「環境」、「能源」等各大產業是以何種姿態回應復甦的世界？</span></p>
                </div>
             </div>
          </div>
@@ -904,7 +929,7 @@
                            <span class="topic-content">
                               <span class="topic-s">專題演講1：科技</span><br>
                               前進元宇宙 台灣科技業整裝出發<br>
-                              <span class="topic-speaker">講者：HTC虛擬實境產品與策略副總經理暨亞太區總經理 鮑永哲</span>
+                              <span class="topic-speaker">講者：HTC VIVE 企業解決方案部門資深副總經理 鮑永哲</span>
                            </span>
 
                         </div>
@@ -927,7 +952,8 @@
                         </div>
                         <div class="block-detail">
                            <span class="time">15:30 - 16:00</span>
-                           <span class="topic-content"><span class="topic-s">專題演講4：金融</span><br>1.2:1 的挑戰—建構人口老化的社會安全網<br>
+                           <span class="topic-content"><span class="topic-s">專題演講4：金融</span><br>1.2:1
+                              的挑戰—建構人口老化的社會安全網<br>
                               <span class="topic-speaker">講者：國泰人壽總經理 劉上旗</span></span>
                         </div>
                         <div class="block-detail">
@@ -964,132 +990,144 @@
 
 
       <div class="cloud"></div>
-      <!--cloud-->
+      <cloud>
 
-      <!--Tickest2 section-->
-      <!-- <section id="tickets2" class="tickets2 pt-120 pb-120">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-8 col-sm-offset-2 pb-50 text-center">
-                  <h1 class="title">比肩乘風</h1>
-                  <p class="title-lead mt-10">與風傳媒共同關注風起之勢，想像2022 </p>
-               </div>
-               <div class="col-md-10 col-md-offset-1" data-aos="fade-up" data-aos-duration="1500">
-                  <div class="review-slider flexslider">
-                     <ul class="slides">
-                        <li class="col-md-12">
-                           <img class="col-md-4" src="img/logo/logo-6.png">
-                           <blockquote class="col-md-8"><span>跟著新竹風</span>與風城一同御風而行，產業起飛</blockquote>
-                        </li>
-                        <li class="col-md-12">
-                           <img class="col-md-4" src="img/logo/logo-3.png">
-                           <blockquote class="col-md-8"><span>你的眼界可以轉動世界</span><span>長榮航空與台灣一同乘風而上</span> </blockquote>
-                        </li>
-                     </ul>
+         <!--Tickest2 section-->
+         <section id="tickets2" class="tickets2 pt-120 pb-120">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2 pb-50 text-center">
+                     <h1 class="title">比肩乘風</h1>
+                     <p class="title-lead mt-10">與風傳媒共同關注風起之勢，想像2022 </p>
                   </div>
-               </div>
-            </div>
-         </div>
-      </section> -->
-      <!--End tickets section-->
-
-      <div class="cloud2"></div>
-      <!--cloud-->
-
-      <!--Tickest section-->
-      <section id="tickets" class="tickets pt-80 pb-120">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-8 col-sm-offset-2 pb-50 text-center">
-                  <h1 class="title">售票資訊</h1>
-                  <p class="title-lead mt-10"><span>歡迎蒞臨現場，體驗風傳媒精心規劃的演出，與各界人士交誼品酒，體驗VR設備。</span><span>節目內容線上同步播出，收看線上直播，與風傳媒互動，還有機會抽中精美好禮。</span> </p>
-               </div>
-            </div>
-         </div>
-         <div class="container">
-            <div class="row vertical-align tickets" data-aos="fade-up" data-aos-duration="1500">
-               <div class="col-md-4 col-md-push-1">
-                  <h3 class="sub-title-0  mb-20"><span class="gradient-text">收看線上直播，​分享抽好禮</h3>
-                  <div>
-                     <p>完成兩步驟，有機會抽總額高達30萬好禮！<br>
-                        1. 分享活動至Facebook，並將貼文設為公開<br>
-                        2. 填寫滿意度回饋問卷</p>
-
-                     <ul class="list mt-50">
-                        <li>線上購票付款者，可獲贈晶華酒店柏麗廳自助式平日下午茶招待券乙張（市價880元+10%），於活動結束後統一寄出。</li>
-                        <li>如遇疫情取消實體活動，將統一退回活動款項，搭贈商品亦同時取消，造成不便，敬請見諒。</li>
-                        <li>主辦單位保留調整活動之權利。</li>
-                        <li>本活動為實體論壇，配合防疫措施，當天官網開放線上直播參與。</li>
-                     </ul>
-
-                  </div>
-               </div>
-
-               <div class="col-md-8 ">
-                  <div class="col-md-6 col-md-push-2">
-                     <ul class="block-tickets">
-                        <li>
-                           <ul class="block-ticket overlap">
-                              <li class="block-price"><span class="price"><span class="cur">$</span>3,500</span><span
-                                    class="block-type">貴賓票</span></li>
-                              <li>單人出席實體活動票</li>
-                              <li><a href="#" class="but mt-30 isDisabled">即將開放報名</a></li>
-                           </ul>
-                        </li>
-                     </ul>
-                  </div>
-                  <div class="col-md-6">
-                     <ul class="block-tickets">
-                        <li>
-                           <ul class="block-ticket active">
-                              <li class="block-price"><span class="price"><span class="cur">$</span>1600</span><span
-                                    class="block-type">早鳥貴賓票</span></li>
-                              <li>單人出席實體活動票 </li>
-                              <li><a href="#" class="but mt-30 isDisabled">即將開放報名</a></li>
-                           </ul>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
-
-            </div>
-         </div>
-      </section>
-
-      <div class="cloud"></div>
-      <!--cloud-->
-
-      <!--Sponsor section-->
-      <section class="sponser pt-120 pb-120">
-         <div class="container front-p">
-            <div class="row">
-               <div class="col-sm-10 col-sm-offset-1 pb-120 text-center">
-                  <h1 class="title">主辦單位</h1>
-                  <div class="col-md-4 col-md-push-2" data-aos="fade-up" data-aos-duration="1500">
-                     <div class="block-spon">
-                        <img src="img/logo/logo-0.png" alt="">
-                     </div>
-                  </div>
-                  <div class="col-md-4 col-md-push-2" data-aos="fade-up" data-aos-duration="1500">
-                     <div class="block-spon">
-                        <img src="img/logo/logo-5.png" alt="">
+                  <div class="col-md-10 col-md-offset-1" data-aos="fade-up" data-aos-duration="1500">
+                     <div class="review-slider flexslider">
+                        <ul class="slides">
+                           <li class="col-md-12">
+                              <img class="col-md-4" src="img/logo/logo-6.png">
+                              <blockquote class="col-md-8"><span>跟著新竹風</span>與風城一同御風而行，產業起飛</blockquote>
+                           </li>
+                           <li class="col-md-12">
+                              <img class="col-md-4" src="img/logo/logo-3.png">
+                              <blockquote class="col-md-8"><span>樂在其中　才會無敵精彩</span><span>長榮航空與您一同乘風而上</span>
+                              </blockquote>
+                           </li>
+                           <li class="col-md-12">
+                              <img class="col-md-4" src="img/logo/logo-10.png">
+                              <blockquote class="col-md-8"><span>舞動精彩　共創未來</span><span>中華電信5G飆到心坎裡</span> </blockquote>
+                           </li>
+                        </ul>
                      </div>
                   </div>
                </div>
+            </div>
+         </section>
+         <!--End tickets section-->
 
-               <div class="col-sm-10 col-sm-offset-1 pb-120 text-center">
-                  <h1 class="title">合作單位</h1>
-                  <div class="col-md-12 text-center" data-aos="fade-up" data-aos-duration="1500">
+         <div class="cloud2"></div>
+         <!--cloud-->
 
-                     <!-- logo複製這段，再把col-md-push-4刪掉 -->
-                     <div class="col-md-4 col-md-push-4">
+         <!--Tickest section-->
+         <section id="tickets" class="tickets pt-80 pb-120">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2 pb-50 text-center">
+                     <h1 class="title">報名資訊</h1>
+                     <p class="title-lead mt-10">
+                        <span>歡迎蒞臨現場，體驗風傳媒精心規劃的演出，與各界人士交誼品酒，體驗VR設備。</span><span>節目內容線上同步播出，收看線上直播，與風傳媒互動，還有機會抽中精美好禮。</span>
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="container">
+               <div class="row vertical-align tickets" data-aos="fade-up" data-aos-duration="1500">
+                  <div class="col-md-4 col-md-push-1">
+                     <h3 class="sub-title-0  mb-20"><span class="gradient-text">收看線上直播，​分享抽好禮</h3>
+                     <div>
+                        <p>完成兩步驟，有機會抽總額高達30萬好禮！<br>
+                           1. 分享活動至Facebook，並將貼文設為公開<br>
+                           2. 填寫滿意度回饋問卷</p>
+
+                        <ul class="list mt-50">
+                           <li>線上購票付款者，可獲贈晶華酒店柏麗廳自助式平日下午茶招待券乙張（市價880元+10%），於活動結束後統一寄出。</li>
+                           <li>如遇疫情取消實體活動，將統一退回活動款項，搭贈商品亦同時取消，造成不便，敬請見諒。</li>
+                           <li>主辦單位保留調整活動之權利。</li>
+                           <li>本活動為實體論壇，配合防疫措施，當天官網開放線上直播參與。</li>
+                        </ul>
+
+                     </div>
+                  </div>
+
+                  <div class="col-md-8 ">
+                     <div class="col-md-6 col-md-push-2">
+                        <ul class="block-tickets">
+                           <li>
+                              <ul class="block-ticket overlap">
+                                 <li class="block-price"><span class="price"><span class="cur">$</span>3,500</span><span
+                                       class="block-type">貴賓票</span></li>
+                                 <li>單人出席實體活動票</li>
+                                 <li><a href="#" class="but mt-30 isDisabled">即將開放報名</a></li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="col-md-6">
+                        <ul class="block-tickets">
+                           <li>
+                              <ul class="block-ticket active">
+                                 <li class="block-price"><span class="price"><span class="cur">$</span>1600</span><span
+                                       class="block-type">早鳥貴賓票</span></li>
+                                 <li>單人出席實體活動票 </li>
+                                 <li><a href="#" class="but mt-30 isDisabled">即將開放報名</a></li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </section>
+
+         <div class="cloud"></div>
+         <!--cloud-->
+
+         <!--Sponsor section-->
+         <section class="sponser pt-120 pb-120">
+            <div class="container front-p">
+               <div class="row">
+                  <div class="col-sm-10 col-sm-offset-1 pb-120 text-center">
+                     <h1 class="title">主辦單位</h1>
+                     <div class="col-md-4 col-md-push-2" data-aos="fade-up" data-aos-duration="1500">
                         <div class="block-spon">
-                           <img src="img/logo/logo-2.png" alt="">
+                           <img src="img/logo/logo-0.png" alt="">
                         </div>
                      </div>
-                     <!-- logo複製這段，再把col-md-push-4刪掉 end -->
-                     
-                  
+                     <div class="col-md-4 col-md-push-2" data-aos="fade-up" data-aos-duration="1500">
+                        <div class="block-spon">
+                           <img src="img/logo/logo-5.png" alt="">
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-sm-10 col-sm-offset-1 pb-120 text-center">
+                     <h1 class="title">合作單位</h1>
+                     <div class="col-md-12 text-center" data-aos="fade-up" data-aos-duration="1500">
+
+                        <!-- logo複製這段，再把col-md-push-4刪掉 -->
+                        <div class="col-md-4 col-md-push-2">
+                           <div class="block-spon">
+                              <img src="img/logo/logo-2.png" alt="">
+                           </div>
+                        </div>
+                        <div class="col-md-4 col-md-push-2">
+                           <div class="block-spon">
+                              <img src="img/logo/logo-6.png" alt="">
+                           </div>
+                        </div>
+                        <!-- logo複製這段，再把col-md-push-4刪掉 end -->
+
+
                      </div>
                   </div>
                </div>
@@ -1097,22 +1135,52 @@
                <div class="col-sm-10 col-sm-offset-1 pb-60 text-center">
                   <h1 class="title">贊助單位</h1>
                   <div class="col-md-12 text-center" data-aos="fade-up" data-aos-duration="1500">
-                     <div class="col-md-3">
+                     <div class="col-md-4">
+                        <div class="block-spon">
+                           <img src="img/logo/logo-3.png" alt="">
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="block-spon">
+                           <img src="img/logo/logo-10.png" alt="">
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="block-spon">
+                           <img src="img/logo/logo-11.png" alt="">
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="block-spon">
+                           <img src="img/logo/logo-13.png" alt="">
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="block-spon">
+                           <img src="img/logo/logo-14.png" alt="">
+                        </div>
+                     </div>
+                     <div class="col-md-4">
                         <div class="block-spon">
                            <img src="img/logo/logo-1.png" alt="">
                         </div>
                      </div>
-                     <div class="col-md-3 col-sm-3">
+                     <div class="col-md-4">
+                        <div class="block-spon">
+                           <img src="img/logo/logo-12.png" alt="">
+                        </div>
+                     </div>
+                     <div class="col-md-4">
                         <div class="block-spon">
                            <img src="img/logo/logo-7.png" alt="">
                         </div>
                      </div>
-                     <div class="col-md-3 col-sm-3">
+                     <div class="col-md-4">
                         <div class="block-spon">
                            <img src="img/logo/logo-8.png" alt="">
                         </div>
                      </div>
-                     <div class="col-md-3 col-sm-3">
+                     <div class="col-md-4">
                         <div class="block-spon">
                            <img src="img/logo/logo-9.png" alt="">
                         </div>
@@ -1120,72 +1188,74 @@
                   </div>
                </div>
             </div>
+   </div>
+
+   </section>
+   <!--End sponser section-->
+
+   <!--Contact section-->
+   <section id="location" class="location pt-120 pb-120 bg-dark">
+      <div class="block-map">
+         <div class="map">
+            <iframe
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.4068629155217!2d121.52202696601297!3d25.054195533962936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a968f68729e7%3A0x6e3f6d2374968eaa!2zUmVnZW50IFRhaXBlaSDlj7DljJfmmbboj6_phZLlupc!5e0!3m2!1szh-TW!2stw!4v1642067178553!5m2!1szh-TW!2stw"
+               width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
          </div>
-
-      </section>
-      <!--End sponser section-->
-
-      <!--Contact section-->
-      <section id="location" class="location pt-120 pb-120 bg-dark">
-         <div class="block-map">
-            <div class="map">
-               <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.4068629155217!2d121.52202696601297!3d25.054195533962936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a968f68729e7%3A0x6e3f6d2374968eaa!2zUmVnZW50IFRhaXBlaSDlj7DljJfmmbboj6_phZLlupc!5e0!3m2!1szh-TW!2stw!4v1642067178553!5m2!1szh-TW!2stw"
-                  width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="container block-contact">
+         <div class="row">
+            <div class="col-md-5 col-md-offset-7 col-sm-5 col-sm-offset-7">
+               <h1 class="title">場地資訊</h1>
+               <p class="title-lead mt-10"> 台北晶華酒店 3F 宴會廳 </p>
             </div>
-         </div>
-         <div class="container block-contact">
-            <div class="row">
-               <div class="col-md-5 col-md-offset-7 col-sm-5 col-sm-offset-7">
-                  <h1 class="title">場地資訊</h1>
-                  <p class="title-lead mt-10"> 台北晶華酒店 3F 宴會廳 </p>
-               </div>
-               <div class="col-md-5 col-md-offset-7 col-sm-5 col-sm-offset-7">
-                  <div class="block-info-3">
-                     <p><img src="img/marker.png" alt="" class="marker">104台北市中山區中山北路​二段39巷3號</p>
-                     <h5 class="pt-50 pb-30"><span>大眾運輸</span>捷運「淡水線（紅線）」至「中山站」4號出口，約步行 10
-                        分鐘即可抵達。公車216、217、218、220、224、227、247、260、287、310、603、中山幹線等數十路公車，於「國賓飯店站」下車即可。</h5>
-                     <h5><span>自行開車</span>行經中山高速公路於重慶北路交流道出口下交流道-至民族東路左轉，直走至林森北路右轉即可抵達。鄰近林森公園地下停車場；或是利用飯店本身附屬之地下停車場。</h5>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!--End contact section-->
-
-      <!--Faq section-->
-      <section id="faq" class="faq pt-120 pb-120">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-8 col-sm-offset-2 mb-50 text-center ">
-                  <h1 class="title">民調與論壇互動獎勵</h1>
-                  <!-- <p class="title-lead mt-10">活動說明</p> -->
+            <div class="col-md-5 col-md-offset-7 col-sm-5 col-sm-offset-7">
+               <div class="block-info-3">
+                  <p><img src="img/marker.png" alt="" class="marker">104台北市中山區中山北路​二段39巷3號</p>
+                  <h5 class="pt-50 pb-30"><span>大眾運輸</span>捷運「淡水線（紅線）」至「中山站」4號出口，約步行 10
+                     分鐘即可抵達。公車216、217、218、220、224、227、247、260、287、310、603、中山幹線等數十路公車，於「國賓飯店站」下車即可。</h5>
+                  <h5><span>自行開車</span>行經中山高速公路於重慶北路交流道出口下交流道-至民族東路左轉，直走至林森北路右轉即可抵達。鄰近林森公園地下停車場；或是利用飯店本身附屬之地下停車場。</h5>
                </div>
             </div>
          </div>
+      </div>
+   </section>
+   <!--End contact section-->
 
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-8 col-sm-offset-2  ">
-                  <div class="block-faq mb-50">
-                     <p><strong>活動說明</strong></p>
-                     <p>本活動得獎名單將於論壇後，以電腦抽獎系統採隨機方式抽出，並於 2022/3/4 公布於活動網站上。得獎名單公佈後，活動執行單位將會主動以 Email
-                        通知的方式與得獎者聯繫，得獎者聯絡方式填寫不詳實或未於接獲得獎通知後 7 天內回覆相關資料，皆視為放棄得獎權利，將由備取者遞補。</p>
-                     <p>參加者應於填寫問卷時，提供真實姓名、手機號碼、電子郵件及聯絡地址，以作為得獎時核對身分及寄發通知之用。</p>
-                     <p>主辦單位保有最終修改、變更、活動解釋及取消本活動之權利，若有相關異動將公布於網站，恕不另行通知。</p>
-                  </div>
-                  <div class="text-center">
-                     <a href="https://docs.google.com/document/u/1/d/e/2PACX-1vQLTzfVKBpXk7Ojmsz6uMReoicb0TKjQlrTGuyOMa0RseHnHEkfNAV0jCqgcot1NbOjEjN4zrc-ULAO/pub" target="_blank" class="link gradient-text">詳細活動辦法與規範</a>
-                  </div>
-                 
-               </div>
+   <!--Faq section-->
+   <section id="faq" class="faq pt-120 pb-120">
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 mb-50 text-center ">
+               <h1 class="title">民調與論壇互動獎勵</h1>
+               <!-- <p class="title-lead mt-10">活動說明</p> -->
             </div>
          </div>
-      </section>
-      <!--End faq section-->
+      </div>
 
-      <!--Gallery section 先隱藏-->
-      <!-- <section id="gallery" class="gallery pt-120">
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-8 col-sm-offset-2  ">
+               <div class="block-faq mb-50">
+                  <p><strong>活動說明</strong></p>
+                  <p>本活動得獎名單將於論壇後，以電腦抽獎系統採隨機方式抽出，並於 2022/3/4 公布於活動網站上。</p>
+                  <p>得獎名單公佈後，活動執行單位將會主動以 Email
+                     通知的方式與得獎者聯繫，得獎者聯絡方式填寫不詳實或未於接獲得獎通知後 7 天內回覆相關資料，皆視為放棄得獎權利，將由備取者遞補。</p>
+                  <p>參加者應於填寫問卷時，提供真實姓名、手機號碼、電子郵件及聯絡地址，以作為得獎時核對身分及寄發通知之用。</p>
+                  <p>主辦單位保有最終修改、變更、活動解釋及取消本活動之權利，若有相關異動將公布於網站，恕不另行通知。</p>
+               </div>
+               <div class="text-center">
+                  <a href="https://docs.google.com/document/u/1/d/e/2PACX-1vQLTzfVKBpXk7Ojmsz6uMReoicb0TKjQlrTGuyOMa0RseHnHEkfNAV0jCqgcot1NbOjEjN4zrc-ULAO/pub"
+                     target="_blank" class="link gradient-text">詳細活動辦法與規範</a>
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--End faq section-->
+
+   <!--Gallery section 先隱藏-->
+   <!-- <section id="gallery" class="gallery pt-120">
             <div class="container">
                <div class="row">
                   <div class="col-sm-8 col-sm-offset-2 mb-130 ">
@@ -1284,33 +1354,33 @@
                </div>
             </div>
          </section> -->
-      <!--End gallery section-->
+   <!--End gallery section-->
 
-      <footer class="pt-120">
-         <div class="container ">
-            <div class="row">
-               <div id="footer_bottom">
-                  <div id="slogan_wrapper">
-                     <img src="img/slogan_ch.svg" alt="" class="slogans svg_content" id="slogan_cn"
-                        onerror="this.onerror=null; this.src='/images/slogan_ch.png'" data-src="/images/slogan_ch.png">
-                     <img src="img/slogan_en.svg" alt="" class="slogans svg_content" id="slogan_en"
-                        onerror="this.onerror=null; this.src='/images/slogan_en.png'" data-src="/images/slogan_en.png">
-                  </div>
-                  <div id="footer_info_wrapper">
-                     <div class="footer_info_contents"><span>地址：114 台北市內湖區瑞光路513巷37號4樓</span><span>電子郵件地址：<a
-                              href="mailto:service@storm.mg" id="mailaddress">service@storm.mg</a></span></div>
-
-                     <div id="copyright" class="footer_info_contents">Copyright © 2021 Storm Media Group All Rights
-                        Reserved. ◎未經授權．不得轉載</div>
-                  </div>
+   <footer class="pt-120">
+      <div class="container ">
+         <div class="row">
+            <div id="footer_bottom">
+               <div id="slogan_wrapper">
+                  <img src="img/slogan_ch.svg" alt="" class="slogans svg_content" id="slogan_cn"
+                     onerror="this.onerror=null; this.src='/images/slogan_ch.png'" data-src="/images/slogan_ch.png">
+                  <img src="img/slogan_en.svg" alt="" class="slogans svg_content" id="slogan_en"
+                     onerror="this.onerror=null; this.src='/images/slogan_en.png'" data-src="/images/slogan_en.png">
                </div>
+               <div id="footer_info_wrapper">
+                  <div class="footer_info_contents"><span>地址：114 台北市內湖區瑞光路513巷37號4樓</span><span>電子郵件地址：<a
+                           href="mailto:service@storm.mg" id="mailaddress">service@storm.mg</a></span></div>
 
+                  <div id="copyright" class="footer_info_contents">Copyright © 2021 Storm Media Group All Rights
+                     Reserved. ◎未經授權．不得轉載</div>
+               </div>
             </div>
-         </div>
-      </footer>
 
-      <div class="cloud3"></div>
-      <!--cloud-->
+         </div>
+      </div>
+   </footer>
+
+   <div class="cloud3"></div>
+   <!--cloud-->
    </div>
 
    <!-- End wrapper-->
@@ -1325,7 +1395,9 @@
    <script src="js/venobox.min.js" type="text/javascript"></script>
    <script src="js/instafeed.min.js" type="text/javascript"></script>
    <script src="js/script.js" type="text/javascript"></script>
-   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbGQXiGt-6UAmOFFdSzYI-byeE7ewBuVM&callback=initializeMap"></script><!-- Google analytics -->
+   <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbGQXiGt-6UAmOFFdSzYI-byeE7ewBuVM&callback=initializeMap">
+   </script><!-- Google analytics -->
 
    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!-- AOS -->
    <script>
