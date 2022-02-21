@@ -149,13 +149,68 @@ body {
     z-index: -99;
     }
 
+    .color-line {   
+        border:2px solid #ee71f9;
+        // padding:2px;
+        border-radius: 15px;
+        // background: linear-gradient(to right, #399bff, #ee71f9);
+        .row {
+            // background: #63cced;
+            padding: 40px 20px;
+            // margin-right: 0;
+            // margin-left: 0;
+            span {
+                display:block;
+                font-size: 28px;
+                font-weight: 600;
+            }
+            @media only screen and (max-width: 767px) {
+                padding:20px;
+                // background: #a1e2f5;
+                span {
+                    display:inline;
+                }
+                .col-md-6 {
+                    margin:30px auto;
+                }            
+            }
+        }
+    }
+    .img-responsive {
+        margin-bottom :20px;
+        img {
+            border-radius: 15px;
+        }
+    }
+    .brand {
+        font-size: 15px;
+        margin: 0.5rem 0 0.25rem;
+    }
+    .award {
+        font-size: 17.5px;
+        line-height: 1.25;
+        margin-bottom: 0.5rem;    
+    }
+    .price {
+        color: #d34adf;
+        display: inline-block;
+        border-radius: 290486px;
+        border: 1px solid #d34adf;
+        padding: 0.25rem 1rem 0.35rem;
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom:10px;
+        margin-top: 6px;
+    }
+    .count {
 
+    }
 
 }
 
 //survey
 .survey {
-    background:#ffffff;
+    // background:#ffffff;
     .pd-mb-0 {
         @media only screen and (max-width: 767px) {
             padding: 0px;
