@@ -205,6 +205,10 @@ body:before {
   margin-top: 6px;
 }
 
+.survey {
+  background: #ffffff;
+}
+
 @media only screen and (max-width: 767px) {
   .survey .pd-mb-0 {
     padding: 0px;
