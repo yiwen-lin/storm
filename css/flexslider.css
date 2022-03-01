@@ -114,9 +114,11 @@ html[xmlns] .slides {
 /* Direction Nav */
 .flex-direction-nav {
 	height: 30px;
+	position: relative;
 }
 
 .flex-direction-nav a {
+	display: block;
 	color: #000;
 	position: absolute;
 	top: 50%;
@@ -130,7 +132,7 @@ html[xmlns] .slides {
 	height: 48px;
 	text-align: center;
 	line-height: 40px;
-	opacity: .5;
+	opacity: .7;
 }
 
 .flex-direction-nav a:hover {
