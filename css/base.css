@@ -464,6 +464,7 @@ a.link {
     display: inline-block;
     font-weight: 600;
     min-height: 22px;
+    margin: 0 20px;
 }
 a.link:after {
     bottom: -4px;
